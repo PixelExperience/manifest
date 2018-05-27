@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Usage: repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1 -m crowdin.xml -->
+  <!-- Usage: repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1 -m crowdin.xml --depth=1 -->
 
   <remote name="pixel"
           fetch="https://github.com/PixelExperience"
