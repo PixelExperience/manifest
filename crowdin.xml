@@ -8,6 +8,13 @@
           revision="oreo-mr1"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="oreo-mr1" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
   <!-- General repos -->
   <project path="crowdin" name="crowdin" remote="pixel" />
   <project path="vendor/themes" name="vendor_themes" remote="pixel" />
