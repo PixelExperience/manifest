@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Usage: repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1 -m crowdin.xml -->
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="oreo-mr1"
+          review="gerrit.pixelexperience.org" />
+
+  <!-- General repos -->
+  <project path="crowdin" name="crowdin" remote="pixel" />
+  <project path="vendor/themes" name="vendor_themes" remote="pixel" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/hwkeys-support" name="frameworks_hwkeys-support" remote="pixel" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/CustomSettings" name="packages_apps_CustomSettings" remote="pixel" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
+
+</manifest>
