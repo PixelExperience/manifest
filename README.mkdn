@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/pe_manifest -b oreo-mr1
+repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
 
 # Sync
 repo sync -c -jx --force-sync --no-clone-bundle --no-tags
