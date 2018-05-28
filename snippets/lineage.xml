@@ -110,6 +110,8 @@
     <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="lineage" />
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="lineage" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" revision="lineage-15.1-caf" remote="lineage" />
   <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-15.1-caf" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
