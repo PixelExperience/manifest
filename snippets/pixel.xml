@@ -37,6 +37,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
   <project path="frameworks/hwkeys-support" name="frameworks_hwkeys-support" remote="pixel" />
+  <project path="frameworks/lottie" name="frameworks_lottie" remote="pixel" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
 
