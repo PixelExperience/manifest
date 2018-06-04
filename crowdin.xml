@@ -30,5 +30,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
   <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
   <project path="packages/resources/OppoGestures" name="packages_resources_OppoGestures" remote="pixel" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="pixel" />
 
 </manifest>
