@@ -53,6 +53,7 @@
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
+  <project path="system/security" name="android_system_security" remote="lineage" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
