@@ -48,6 +48,7 @@
   <remove-project name="device/sample" />
 
   <!-- External repos -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/chromium-webview" />

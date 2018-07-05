@@ -6,6 +6,7 @@
           revision="lineage-15.1" />
 
   <!-- General repos -->
+  <project path="art" name="android_art" remote="lineage" />
   <project path="build/kati" name="android_build_kati" remote="lineage" />
   <project path="development" name="android_development" remote="lineage" />
   <project path="platform_testing" name="android_platform_testing" remote="lineage" />
