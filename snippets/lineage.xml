@@ -16,6 +16,7 @@
   <project path="external/elfutils" name="android_external_elfutils" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
+  <project path="external/libdrm" name="android_external_libdrm" remote="lineage" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
