@@ -125,6 +125,7 @@
   <remove-project name="platform/system/tools/aidl" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/netd" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/native" />

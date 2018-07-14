@@ -80,5 +80,6 @@
   <project path="system/libvintf" name="system_libvintf" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
+  <project path="system/netd" name="system_netd" remote="pixel" />
 
 </manifest>
