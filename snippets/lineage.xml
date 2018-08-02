@@ -120,7 +120,6 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-15.1-caf" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage">
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>

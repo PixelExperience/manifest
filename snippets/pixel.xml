@@ -33,6 +33,9 @@
   <!-- External repos -->
   <project path="external/selinux" name="external_selinux" remote="pixel" />
 
+  <!-- CodeAurora additions -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
