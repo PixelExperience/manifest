@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="https://github.com/pe-pie"
+          revision="pie"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="pie" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="pie" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
+  <project path="hardware/ril-caf" name="hardware_ril" revision="pie-caf" remote="pixel" />
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
+
+  <!-- External repos -->
+  <project path="external/perfetto" name="external_perfetto" remote="pixel" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+
+  <!-- General repos -->
+  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="build/make" name="build" remote="pixel">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="pixel">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/kati" name="build_kati" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/ril" name="hardware_ril" remote="pixel" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/apps/WallpapersBReel2017" name="packages_apps_WallpapersBReel2017" remote="pixel-gitlab" clone-depth="1" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/extras" name="system_extras" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/vold" name="system_vold" remote="pixel" />
+
+</manifest>
