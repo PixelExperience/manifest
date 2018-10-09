@@ -63,7 +63,6 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
