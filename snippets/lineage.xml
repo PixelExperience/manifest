@@ -50,6 +50,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/elfutils" name="android_external_elfutils" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
