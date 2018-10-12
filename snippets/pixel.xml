@@ -26,6 +26,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/ril-caf" name="hardware_ril" revision="pie-caf" remote="pixel" />
   <project path="system/qcom" name="system_qcom" remote="pixel" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
   <!-- External repos -->
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
