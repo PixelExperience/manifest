@@ -32,7 +32,6 @@
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8998" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" revision="lineage-16.0-caf" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
