@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="pixel"
-          fetch="https://github.com/pe-pie"
+          fetch="https://github.com/PixelExperience"
           revision="pie"
           review="gerrit.pixelexperience.org" />
 
