@@ -64,7 +64,6 @@
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lineage" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lineage" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />

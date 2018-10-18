@@ -71,6 +71,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
