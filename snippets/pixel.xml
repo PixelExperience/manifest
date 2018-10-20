@@ -91,6 +91,7 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
