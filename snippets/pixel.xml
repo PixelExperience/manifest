@@ -20,8 +20,11 @@
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/audio-caf/sdm845" name="hardware_qcom_audio" revision="pie-caf-845" remote="pixel" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" revision="pie-caf" remote="pixel" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" revision="pie-caf-8084" remote="pixel" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" revision="pie-caf-8996" remote="pixel" />
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="pie-caf-8998" remote="pixel" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" revision="pie-caf-8084" remote="pixel" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" revision="pie-caf-8084" remote="pixel" />
   <project path="hardware/qcom/display-caf/sdm845" name="hardware_qcom_display" revision="pie-caf-845" remote="pixel" />
   <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media" revision="pie-caf-845" remote="pixel" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
