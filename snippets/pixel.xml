@@ -65,6 +65,7 @@
   <project path="build/kati" name="build_kati" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <project path="development" name="development" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
@@ -75,19 +76,32 @@
   <project path="hardware/custom/telephony" name="hardware_custom_telephony" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="pixel" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="pixel" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
+  <project path="packages/apps/TvSettings" name="packages_apps_TvSettings" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="pixel" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
@@ -100,6 +114,7 @@
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
+  <project path="system/security" name="system_security" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
