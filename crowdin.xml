@@ -15,6 +15,7 @@
 
   <!-- General repos -->
   <project path="crowdin" name="crowdin" remote="pixel" />
+  <project path="WeatherClient" name="WeatherClient" remote="pixel" />
 
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
