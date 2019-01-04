@@ -49,6 +49,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
@@ -165,6 +166,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/vold" />
 

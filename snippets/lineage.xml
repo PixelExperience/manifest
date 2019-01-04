@@ -56,6 +56,7 @@
   <project path="external/elfutils" name="android_external_elfutils" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lineage" />
+  <project path="external/icu" name="android_external_icu" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
@@ -91,6 +92,7 @@
   <project path="system/bt" name="android_system_bt" remote="lineage" />
   <project path="system/extras" name="android_system_extras" remote="lineage" />
   <project path="system/security" name="android_system_security" remote="lineage" />
+  <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
 
 </manifest>
