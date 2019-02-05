@@ -127,6 +127,7 @@
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
