@@ -28,7 +28,6 @@
 
   <!-- External repos -->
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
-  <project path="external/skia" name="external_skia" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Framework repos -->
@@ -40,7 +39,6 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/make" name="build" remote="pixel">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -57,7 +55,6 @@
   </project>
   <project path="build/kati" name="build_kati" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
-  <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
@@ -75,11 +72,9 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
-  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
@@ -95,11 +90,9 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
-  <project path="system/security" name="system_security" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
