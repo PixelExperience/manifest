@@ -28,7 +28,6 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
   <!-- External repos -->
-  <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Framework repos -->
