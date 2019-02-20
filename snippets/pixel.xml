@@ -94,6 +94,7 @@
   <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel-caf" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel-caf" />
+  <project path="hardware/ril" name="hardware_ril" remote="pixel-caf" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel-caf" />

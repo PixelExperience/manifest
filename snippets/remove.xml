@@ -92,6 +92,7 @@
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Browser2" />
