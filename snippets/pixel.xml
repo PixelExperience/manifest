@@ -7,7 +7,7 @@
           review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-caf"
-          fetch="https://github.com/PixelExperience-CAF"
+          fetch="https://github.com/PixelExperience"
           revision="pie-caf"
           review="gerrit.pixelexperience.org" />
 
