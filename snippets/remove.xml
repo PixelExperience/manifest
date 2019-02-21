@@ -71,6 +71,7 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
