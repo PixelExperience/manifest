@@ -13,7 +13,7 @@
 
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
-          revision="pie" />
+          revision="pie-caf" />
 
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
