@@ -10,6 +10,10 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="oreo-mr1" />
 
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="oreo-mr1" />
+
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/make" name="build" remote="pixel">
