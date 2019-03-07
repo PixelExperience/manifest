@@ -70,6 +70,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 

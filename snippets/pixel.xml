@@ -54,6 +54,7 @@
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixel-caf" />
   <project path="external/icu" name="external_icu" remote="pixel-caf" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel-caf" />
+  <project path="external/proguard" name="external_proguard" remote="pixel-caf" />
   <project path="external/selinux" name="external_selinux" remote="pixel-caf" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel-caf" />
 
