@@ -123,7 +123,6 @@
   <project path="system/core" name="system_core" remote="pixel-caf" />
   <project path="system/extras" name="system_extras" remote="pixel-caf" />
   <project path="system/security" name="system_security" remote="pixel-caf" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel-caf" />
   <project path="system/timezone" name="system_timezone" remote="pixel-caf" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel-caf" />
   <project path="system/vold" name="system_vold" remote="pixel-caf" />
