@@ -27,7 +27,7 @@
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
   <project path="vendor/themes" name="vendor_themes" remote="pixel" />
 
   <!-- External repos -->
