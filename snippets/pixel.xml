@@ -53,7 +53,7 @@
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
   <project path="vendor/themes" name="vendor_themes" remote="pixel" />
 
   <!-- Hardware repos -->
