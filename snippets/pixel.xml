@@ -44,9 +44,9 @@
   </project>
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_commonsys_cryptfs_hw" remote="pixel-caf"/>
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pixel-caf" />
-  <project path="vendor/qcom/sdclang-3.9/linux-x86" name="vendor_qcom_sdclang-3.9_linux-x86" remote="pixel-caf" />
-  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="vendor_qcom_sdclang-4.0_linux-x86" remote="pixel-caf" />
-  <project path="vendor/qcom/sdclang-6.0/linux-x86" name="vendor_qcom_sdclang-6.0_linux-x86" remote="pixel-caf" />
+  <project path="vendor/qcom/sdclang-3.9/linux-x86" name="vendor_qcom_sdclang-3.9_linux-x86" remote="pixel-gitlab" revision="pie-caf" />
+  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="vendor_qcom_sdclang-4.0_linux-x86" remote="pixel-gitlab" revision="pie-caf" />
+  <project path="vendor/qcom/sdclang-6.0/linux-x86" name="vendor_qcom_sdclang-6.0_linux-x86" remote="pixel-gitlab" revision="pie-caf" />
 
   <!-- External repos -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel-caf" />
@@ -86,8 +86,8 @@
   <project path="manifest" name="manifest" remote="pixel-caf" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel-caf" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
-  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="pixel-caf" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
+  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="pixel-gitlab" revision="pie-caf" />
   <project path="vendor/themes" name="vendor_themes" remote="pixel" />
 
   <!-- Hardware repos -->
