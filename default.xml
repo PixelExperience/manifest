@@ -8,7 +8,7 @@
   <remote name="github"
           fetch="https://github.com" />
 
-  <default revision="refs/tags/LA.UM.7.3.r1-06700-sdm845.0"
+  <default revision="refs/tags/LA.UM.7.3.r1-06900-sdm845.0"
            remote="caf"
            sync-j="4"
            sync-c="true"
@@ -34,9 +34,6 @@
   <project name="device/google/accessory/demokit"/>
   <project name="device/google/atv"/>
   <project name="device/google/contexthub"/>
-  <project name="device/google/cuttlefish" path="overlays/keystone/device/google/cuttlefish"/>
-  <project name="device/google/cuttlefish_common" path="overlays/keystone/device/google/cuttlefish_common"/>
-  <project name="device/google/cuttlefish_kernel" path="overlays/keystone/device/google/cuttlefish_kernel"/>
   <project name="device/google/muskie"/>
   <project name="device/google/taimen"/>
   <project name="device/google/vrservices"/>
