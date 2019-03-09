@@ -42,6 +42,7 @@
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" revision="lineage-16.0-caf" remote="lineage" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-16.0-caf" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
