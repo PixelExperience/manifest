@@ -19,6 +19,9 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="pie" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <!-- CAF repos -->
   <project path="device/qcom/common" name="device_qcom_common" remote="pixel-caf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel-caf" />
