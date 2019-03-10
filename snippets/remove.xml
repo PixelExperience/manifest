@@ -168,6 +168,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
 </manifest>
