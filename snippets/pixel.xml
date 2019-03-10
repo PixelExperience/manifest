@@ -125,6 +125,7 @@
   <project path="system/security" name="system_security" remote="pixel-caf" />
   <project path="system/timezone" name="system_timezone" remote="pixel-caf" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel-caf" />
+  <project path="system/update_engine" name="system_update_engine" remote="pixel-caf" />
   <project path="system/vold" name="system_vold" remote="pixel-caf" />
 
 </manifest>
