@@ -14,6 +14,9 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="pie" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
