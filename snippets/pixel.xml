@@ -84,7 +84,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel-caf" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="development" name="development" remote="pixel-caf" />
   <project path="manifest" name="manifest" remote="pixel-caf" />
