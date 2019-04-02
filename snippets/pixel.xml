@@ -118,6 +118,8 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel-caf" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="pixel-caf" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixel-caf" clone-depth="1" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel-caf" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
@@ -125,6 +127,9 @@
   <project path="system/bt" name="system_bt" remote="pixel-caf" />
   <project path="system/core" name="system_core" remote="pixel-caf" />
   <project path="system/extras" name="system_extras" remote="pixel-caf" />
+  <project path="system/hwservicemanager" name="system_hwservicemanager" remote="pixel-caf" />
+  <project path="system/libhidl" name="system_libhidl" remote="pixel-caf" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel-caf" />
   <project path="system/security" name="system_security" remote="pixel-caf" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel-caf" />
   <project path="system/timezone" name="system_timezone" remote="pixel-caf" />
