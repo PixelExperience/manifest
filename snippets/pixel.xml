@@ -52,7 +52,7 @@
   <project path="vendor/qcom/sdclang-6.0/linux-x86" name="vendor_qcom_sdclang-6.0_linux-x86" remote="pixel-gitlab" revision="pie-caf" />
 
   <!-- External repos -->
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel-caf" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/elfutils" name="external_elfutils" remote="pixel-caf" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixel-caf" />
   <project path="external/icu" name="external_icu" remote="pixel-caf" />
