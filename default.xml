@@ -8,7 +8,7 @@
   <remote name="github"
           fetch="https://github.com" />
 
-  <default revision="refs/tags/LA.UM.7.3.r1-06900-sdm845.0"
+  <default revision="refs/tags/LA.UM.7.3.r1-07400-sdm845.0"
            remote="caf"
            sync-j="4"
            sync-c="true"
@@ -290,7 +290,6 @@
   <project name="platform/external/oj-libjdwp" path="external/oj-libjdwp"/>
   <project name="platform/external/okhttp" path="external/okhttp"/>
   <project name="platform/external/one-true-awk" path="external/one-true-awk"/>
-  <project name="platform/external/opencv" path="external/opencv"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
   <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project name="platform/external/pcre" path="external/pcre"/>
