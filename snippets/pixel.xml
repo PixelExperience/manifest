@@ -23,6 +23,7 @@
           fetch="https://gitlab.com" />
 
   <!-- CAF repos -->
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
   <project path="device/qcom/common" name="device_qcom_common" remote="pixel-caf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel-caf" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio-caf_msm8996" remote="pixel-caf" />
@@ -37,7 +38,6 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media-caf_msm8996" remote="pixel-caf" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media-caf_msm8998" remote="pixel-caf" />
   <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media-caf_sdm845" remote="pixel-caf" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel-caf" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel-caf" />
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="pixel-caf" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="vendor_qcom_opensource_commonsys_bluetooth" remote="pixel-caf" />
