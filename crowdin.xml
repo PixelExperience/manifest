@@ -30,4 +30,7 @@
   <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
   <project path="packages/resources/OneplusGestures" name="packages_resources_OneplusGestures" remote="pixel" />
 
+  <!-- Vendor repos -->
+  <project path="vendor/themes" name="vendor_themes" remote="pixel" />
+
 </manifest>
