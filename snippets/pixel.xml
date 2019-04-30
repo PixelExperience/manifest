@@ -61,7 +61,6 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
-  <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
