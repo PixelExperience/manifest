@@ -57,6 +57,11 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
+<<<<<<< HEAD   (84388c manifest: crowdin: Track vendor/themes)
+=======
+  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="pixel-gitlab" revision="pie-caf" />
+  <project path="vendor/livedisplay" name="vendor_livedisplay" remote="pixel" />
+>>>>>>> CHANGE (0816c6 Track livedisplay repos)
   <project path="vendor/themes" name="vendor_themes" remote="pixel" />
 
   <!-- Hardware repos -->
