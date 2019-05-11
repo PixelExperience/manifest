@@ -89,6 +89,10 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" />
+  <project path="hardware/qcom/sdm710/display" name="android_hardware_qcom_sdm710_display" remote="lineage">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
+  </project>
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
 
   <!-- Packages repos -->
