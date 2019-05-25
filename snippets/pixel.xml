@@ -106,6 +106,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel-caf" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel-caf" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel-caf" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="pixel-caf" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-caf" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel-caf" />
