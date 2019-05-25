@@ -114,6 +114,11 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
+<<<<<<< HEAD   (c8812f Track Bluetooth)
+=======
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+>>>>>>> CHANGE (91aace Track PackageInstaller)
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />

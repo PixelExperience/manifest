@@ -101,11 +101,19 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixel-caf" />
 
   <!-- Packages repos -->
+<<<<<<< HEAD   (c8812f Track Bluetooth)
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel-caf" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel-caf" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel-caf" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel-caf" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel-caf" />
+=======
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="pixel" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
+>>>>>>> CHANGE (91aace Track PackageInstaller)
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-caf" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel-caf" />
