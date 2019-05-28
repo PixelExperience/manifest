@@ -3,56 +3,65 @@
 
   <remote name="caf"
           fetch="git://codeaurora.org/quic/la"
-          review="codeaurora.org"/>
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.7.3.r1-07800-sdm845.0" />
+
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-9.0.0_r37" />
+
+  <remote name="aosp-caf-upstream"
+          fetch="https://github.com/aosp-caf-upstream" />
 
   <remote name="github"
           fetch="https://github.com" />
 
-  <default revision="refs/tags/LA.UM.7.3.r1-07400-sdm845.0"
-           remote="caf"
+  <default revision="pie"
+           remote="aosp-caf-upstream"
            sync-j="4"
            sync-c="true"
            sync-f="true" />
 
-  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
-  <project name="device/common"/>
-  <project name="device/generic/arm64"/>
-  <project name="device/generic/armv7-a-neon"/>
-  <project name="device/generic/car"/>
-  <project name="device/generic/common"/>
-  <project name="device/generic/goldfish"/>
-  <project name="device/generic/goldfish-opengl"/>
-  <project name="device/generic/mini-emulator-arm64"/>
-  <project name="device/generic/mini-emulator-armv7-a-neon"/>
-  <project name="device/generic/mini-emulator-x86"/>
-  <project name="device/generic/mini-emulator-x86_64"/>
-  <project name="device/generic/qemu"/>
-  <project name="device/generic/uml"/>
-  <project name="device/generic/x86"/>
-  <project name="device/generic/x86_64"/>
-  <project name="device/google/accessory/arduino"/>
-  <project name="device/google/accessory/demokit"/>
-  <project name="device/google/atv"/>
-  <project name="device/google/contexthub"/>
-  <project name="device/google/muskie"/>
-  <project name="device/google/taimen"/>
-  <project name="device/google/vrservices"/>
-  <project name="device/google/wahoo"/>
-  <project name="device/qcom/common">
+  <project name="abl_tianocore_edk2" path="bootable/bootloader/edk2"/>
+  <project name="device_common" path="device/common"/>
+  <project name="device_generic_arm64" path="device/generic/arm64"/>
+  <project name="device_generic_armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device_generic_car" path="device/generic/car"/>
+  <project name="device_generic_common" path="device/generic/common"/>
+  <project name="device_generic_goldfish" path="device/generic/goldfish"/>
+  <project name="device_generic_goldfish-opengl" path="device/generic/goldfish-opengl"/>
+  <project name="device_generic_mini-emulator-arm64" path="device/generic/mini-emulator-arm64"/>
+  <project name="device_generic_mini-emulator-armv7-a-neon" path="device/generic/mini-emulator-armv7-a-neon"/>
+  <project name="device_generic_mini-emulator-x86" path="device/generic/mini-emulator-x86"/>
+  <project name="device_generic_mini-emulator-x86_64" path="device/generic/mini-emulator-x86_64"/>
+  <project name="device_generic_qemu" path="device/generic/qemu"/>
+  <project name="device_generic_uml" path="device/generic/uml"/>
+  <project name="device_generic_x86" path="device/generic/x86"/>
+  <project name="device_generic_x86_64" path="device/generic/x86_64"/>
+  <project name="device_google_accessory_arduino" path="device/google/accessory/arduino"/>
+  <project name="device_google_accessory_demokit" path="device/google/accessory/demokit"/>
+  <project name="device_google_atv" path="device/google/atv"/>
+  <project name="device_google_contexthub" path="device/google/contexthub"/>
+  <project name="device_google_muskie" path="device/google/muskie"/>
+  <project name="device_google_taimen" path="device/google/taimen"/>
+  <project name="device_google_vrservices" path="device/google/vrservices"/>
+  <project name="device_google_wahoo" path="device/google/wahoo"/>
+  <project name="device_qcom_common" path="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
     <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
   </project>
-  <project name="device/qcom/qssi"/>
-  <project name="device/qcom/sepolicy"/>
-  <project name="device/sample"/>
-  <project name="kernel/configs"/>
-  <project name="kernel/msm-4.9"/>
-  <project name="platform/art" path="art"/>
-  <project name="platform/bionic" path="bionic"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project name="platform/build" path="build/make">
+  <project name="device_qcom_qssi" path="device/qcom/qssi"/>
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy"/>
+  <project name="device_sample" path="device/sample"/>
+  <project name="kernel_configs" path="kernel/configs"/>
+  <project name="kernel_msm-4.9" path="kernel/msm-4.9"/>
+  <project name="platform_art" path="art"/>
+  <project name="platform_bionic" path="bionic"/>
+  <project name="platform_bootable_recovery" path="bootable/recovery"/>
+  <project name="platform_build" path="build/make">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -61,656 +70,651 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project name="platform/build/blueprint" path="build/blueprint"/>
-  <project name="platform/build/kati" path="build/kati"/>
-  <project name="platform/build/soong" path="build/soong">
+  <project name="platform_build_blueprint" path="build/blueprint"/>
+  <project name="platform_build_kati" path="build/kati"/>
+  <project name="platform_build_soong" path="build/soong">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project name="platform/compatibility/cdd" path="compatibility/cdd"/>
-  <project name="platform/cts" path="cts" clone-depth="1"/>
-  <project name="platform/dalvik" path="dalvik"/>
-  <project name="platform/developers/build" path="developers/build"/>
-  <project name="platform/developers/demos" path="developers/demos"/>
-  <project name="platform/developers/samples/android" path="developers/samples/android"/>
-  <project name="platform/development" path="development"/>
-  <project name="platform/external/ImageMagick" path="external/ImageMagick"/>
-  <project name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL"/>
-  <project name="platform/external/aac" path="external/aac"/>
-  <project name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker"/>
-  <project name="platform/external/abi-dumper" path="external/abi-dumper"/>
-  <project name="platform/external/adhd" path="external/adhd"/>
-  <project name="platform/external/adt-infra" path="external/adt-infra"/>
-  <project name="platform/external/android-clat" path="external/android-clat"/>
-  <project name="platform/external/androidplot" path="external/androidplot"/>
-  <project name="platform/external/annotation-tools" path="external/annotation-tools"/>
-  <project name="platform/external/ant-glob" path="external/ant-glob"/>
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native"/>
-  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service"/>
-  <project name="platform/external/antlr" path="external/antlr"/>
-  <project name="platform/external/apache-commons-math" path="external/apache-commons-math"/>
-  <project name="platform/external/apache-harmony" path="external/apache-harmony"/>
-  <project name="platform/external/apache-http" path="external/apache-http"/>
-  <project name="platform/external/apache-xml" path="external/apache-xml"/>
-  <project name="platform/external/archive-patcher" path="external/archive-patcher"/>
-  <project name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines"/>
-  <project name="platform/external/autotest" path="external/autotest" clone-depth="1"/>
-  <project name="platform/external/avb" path="external/avb"/>
-  <project name="platform/external/bart" path="external/bart"/>
-  <project name="platform/external/blktrace" path="external/blktrace"/>
-  <project name="platform/external/boringssl" path="external/boringssl"/>
-  <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
-  <project name="platform/external/brotli" path="external/brotli"/>
-  <project name="platform/external/bsdiff" path="external/bsdiff"/>
-  <project name="platform/external/bzip2" path="external/bzip2"/>
-  <project name="platform/external/caliper" path="external/caliper"/>
-  <project name="platform/external/capstone" path="external/capstone"/>
-  <project name="platform/external/cblas" path="external/cblas"/>
-  <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
-  <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1"/>
-  <project name="platform/external/clang" path="external/clang"/>
-  <project name="platform/external/cmockery" path="external/cmockery"/>
-  <project name="platform/external/cn-cbor" path="external/cn-cbor"/>
-  <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
-  <project name="platform/external/conscrypt" path="external/conscrypt"/>
-  <project name="platform/external/crcalc" path="external/crcalc"/>
-  <project name="platform/external/cros/system_api" path="external/cros/system_api"/>
-  <project name="platform/external/curl" path="external/curl"/>
-  <project name="platform/external/dagger2" path="external/dagger2"/>
-  <project name="platform/external/deqp" path="external/deqp"/>
-  <project name="platform/external/desugar" path="external/desugar"/>
-  <project name="platform/external/devlib" path="external/devlib"/>
-  <project name="platform/external/dexmaker" path="external/dexmaker"/>
-  <project name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2"/>
-  <project name="platform/external/dlmalloc" path="external/dlmalloc"/>
-  <project name="platform/external/dng_sdk" path="external/dng_sdk"/>
-  <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
-  <project name="platform/external/doclava" path="external/doclava"/>
-  <project name="platform/external/donuts" path="external/donuts"/>
-  <project name="platform/external/drm_gralloc" path="external/drm_gralloc"/>
-  <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
-  <project name="platform/external/droiddriver" path="external/droiddriver"/>
-  <project name="platform/external/drrickorang" path="external/drrickorang"/>
-  <project name="platform/external/dtc" path="external/dtc"/>
-  <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
-  <project name="platform/external/easymock" path="external/easymock"/>
-  <project name="platform/external/eigen" path="external/eigen"/>
-  <project name="platform/external/elfutils" path="external/elfutils"/>
-  <project name="platform/external/emma" path="external/emma"/>
-  <project name="platform/external/error_prone" path="external/error_prone"/>
-  <project name="platform/external/esd" path="external/esd"/>
-  <project name="platform/external/expat" path="external/expat"/>
-  <project name="platform/external/eyes-free" path="external/eyes-free"/>
-  <project name="platform/external/f2fs-tools" path="external/f2fs-tools"/>
-  <project name="platform/external/fdlibm" path="external/fdlibm"/>
-  <project name="platform/external/fec" path="external/fec"/>
-  <project name="platform/external/fio" path="external/fio"/>
-  <project name="platform/external/flac" path="external/flac"/>
-  <project name="platform/external/flatbuffers" path="external/flatbuffers"/>
-  <project name="platform/external/fmtlib" path="external/fmtlib"/>
-  <project name="platform/external/fonttools" path="external/fonttools"/>
-  <project name="platform/external/freetype" path="external/freetype"/>
-  <project name="platform/external/fsck_msdos" path="external/fsck_msdos"/>
-  <project name="platform/external/gemmlowp" path="external/gemmlowp"/>
-  <project name="platform/external/gflags" path="external/gflags"/>
-  <project name="platform/external/giflib" path="external/giflib"/>
-  <project name="platform/external/glide" path="external/glide"/>
-  <project name="platform/external/golang-protobuf" path="external/golang-protobuf"/>
-  <project name="platform/external/google-api-services-storage" path="external/google-api-services-storage"/>
-  <project name="platform/external/google-benchmark" path="external/google-benchmark"/>
-  <project name="platform/external/google-breakpad" path="external/google-breakpad"/>
-  <project name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc"/>
-  <project name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon"/>
-  <project name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono"/>
-  <project name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script"/>
-  <project name="platform/external/google-styleguide" path="external/google-styleguide"/>
-  <project name="platform/external/google-tv-pairing-protocol" path="external/google-tv-pairing-protocol"/>
-  <project name="platform/external/googletest" path="external/googletest"/>
-  <project name="platform/external/gptfdisk" path="external/gptfdisk"/>
-  <project name="platform/external/guava" path="external/guava"/>
-  <project name="platform/external/guice" path="external/guice"/>
-  <project name="platform/external/hamcrest" path="external/hamcrest"/>
-  <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/honggfuzz" path="external/honggfuzz"/>
-  <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
-  <project name="platform/external/icu" path="external/icu"/>
-  <project name="platform/external/ims" path="external/ims"/>
-  <project name="platform/external/iproute2" path="external/iproute2"/>
-  <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
-  <project name="platform/external/iptables" path="external/iptables"/>
-  <project name="platform/external/iputils" path="external/iputils"/>
-  <project name="platform/external/iw" path="external/iw"/>
-  <project name="platform/external/jacoco" path="external/jacoco"/>
-  <project name="platform/external/jarjar" path="external/jarjar"/>
-  <project name="platform/external/javaparser" path="external/javaparser"/>
-  <project name="platform/external/javasqlite" path="external/javasqlite"/>
-  <project name="platform/external/javassist" path="external/javassist"/>
-  <project name="platform/external/jcommander" path="external/jcommander"/>
-  <project name="platform/external/jdiff" path="external/jdiff"/>
-  <project name="platform/external/jemalloc" path="external/jemalloc"/>
-  <project name="platform/external/jline" path="external/jline"/>
-  <project name="platform/external/jmdns" path="external/jmdns"/>
-  <project name="platform/external/jsilver" path="external/jsilver"/>
-  <project name="platform/external/jsmn" path="external/jsmn"/>
-  <project name="platform/external/json-c" path="external/json-c"/>
-  <project name="platform/external/jsoncpp" path="external/jsoncpp"/>
-  <project name="platform/external/jsr305" path="external/jsr305"/>
-  <project name="platform/external/jsr330" path="external/jsr330"/>
-  <project name="platform/external/junit" path="external/junit"/>
-  <project name="platform/external/junit-params" path="external/junit-params"/>
-  <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
-  <project name="platform/external/kmod" path="external/kmod"/>
-  <project name="platform/external/kotlinc" path="external/kotlinc"/>
-  <project name="platform/external/ksoap2" path="external/ksoap2"/>
-  <project name="platform/external/libavc" path="external/libavc"/>
-  <project name="platform/external/libbackup" path="external/libbackup"/>
-  <project name="platform/external/libbrillo" path="external/libbrillo"/>
-  <project name="platform/external/libcap" path="external/libcap"/>
-  <project name="platform/external/libcap-ng" path="external/libcap-ng"/>
-  <project name="platform/external/libchrome" path="external/libchrome"/>
-  <project name="platform/external/libconstrainedcrypto" path="external/libconstrainedcrypto"/>
-  <project name="platform/external/libcups" path="external/libcups"/>
-  <project name="platform/external/libcxx" path="external/libcxx"/>
-  <project name="platform/external/libcxxabi" path="external/libcxxabi"/>
-  <project name="platform/external/libdaemon" path="external/libdaemon"/>
-  <project name="platform/external/libdivsufsort" path="external/libdivsufsort"/>
-  <project name="platform/external/libdrm" path="external/libdrm"/>
-  <project name="platform/external/libedit" path="external/libedit"/>
-  <project name="platform/external/libese" path="external/libese"/>
-  <project name="platform/external/libevent" path="external/libevent"/>
-  <project name="platform/external/libexif" path="external/libexif"/>
-  <project name="platform/external/libffi" path="external/libffi"/>
-  <project name="platform/external/libgsm" path="external/libgsm"/>
-  <project name="platform/external/libhevc" path="external/libhevc"/>
-  <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
-  <project name="platform/external/libldac" path="external/libldac"/>
-  <project name="platform/external/liblzf" path="external/liblzf"/>
-  <project name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/>
-  <project name="platform/external/libmojo" path="external/libmojo"/>
-  <project name="platform/external/libmpeg2" path="external/libmpeg2"/>
-  <project name="platform/external/libmtp" path="external/libmtp"/>
-  <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
-  <project name="platform/external/libnfnetlink" path="external/libnfnetlink"/>
-  <project name="platform/external/libnl" path="external/libnl"/>
-  <project name="platform/external/libogg" path="external/libogg"/>
-  <project name="platform/external/libopus" path="external/libopus"/>
-  <project name="platform/external/libpcap" path="external/libpcap"/>
-  <project name="platform/external/libphonenumber" path="external/libphonenumber"/>
-  <project name="platform/external/libpng" path="external/libpng"/>
-  <project name="platform/external/libtextclassifier" path="external/libtextclassifier"/>
-  <project name="platform/external/libunwind" path="external/libunwind"/>
-  <project name="platform/external/libunwind_llvm" path="external/libunwind_llvm"/>
-  <project name="platform/external/libusb" path="external/libusb"/>
-  <project name="platform/external/libusb-compat" path="external/libusb-compat"/>
-  <project name="platform/external/libvncserver" path="external/libvncserver"/>
-  <project name="platform/external/libvpx" path="external/libvpx"/>
-  <project name="platform/external/libvterm" path="external/libvterm"/>
-  <project name="platform/external/libxaac" path="external/libxaac"/>
-  <project name="platform/external/libxcam" path="external/libxcam"/>
-  <project name="platform/external/libxkbcommon" path="external/libxkbcommon"/>
-  <project name="platform/external/libxml2" path="external/libxml2"/>
-  <project name="platform/external/libyuv" path="external/libyuv"/>
-  <project name="platform/external/linux-kselftest" path="external/linux-kselftest" clone-depth="1"/>
-  <project name="platform/external/lisa" path="external/lisa"/>
-  <project name="platform/external/littlemock" path="external/littlemock"/>
-  <project name="platform/external/lld" path="external/lld"/>
-  <project name="platform/external/llvm" path="external/llvm"/>
-  <project name="platform/external/lmfit" path="external/lmfit"/>
-  <project name="platform/external/ltp" path="external/ltp"/>
-  <project name="platform/external/lz4" path="external/lz4"/>
-  <project name="platform/external/lzma" path="external/lzma"/>
-  <project name="platform/external/markdown" path="external/markdown"/>
-  <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
-  <project name="platform/external/mesa3d" path="external/mesa3d"/>
-  <project name="platform/external/messageformat" path="external/messageformat"/>
-  <project name="platform/external/minijail" path="external/minijail"/>
-  <project name="platform/external/mksh" path="external/mksh"/>
-  <project name="platform/external/mmc-utils" path="external/mmc-utils"/>
-  <project name="platform/external/mockftpserver" path="external/mockftpserver"/>
-  <project name="platform/external/mockito" path="external/mockito"/>
-  <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
-  <project name="platform/external/modp_b64" path="external/modp_b64"/>
-  <project name="platform/external/mp4parser" path="external/mp4parser"/>
-  <project name="platform/external/mtpd" path="external/mtpd"/>
-  <project name="platform/external/nanohttpd" path="external/nanohttpd"/>
-  <project name="platform/external/nanopb-c" path="external/nanopb-c"/>
-  <project name="platform/external/naver-fonts" path="external/naver-fonts"/>
-  <project name="platform/external/netcat" path="external/netcat"/>
-  <project name="platform/external/neven" path="external/neven"/>
-  <project name="platform/external/nfacct" path="external/nfacct"/>
-  <project name="platform/external/nist-pkits" path="external/nist-pkits"/>
-  <project name="platform/external/nist-sip" path="external/nist-sip"/>
-  <project name="platform/external/nos/host/android" path="external/nos/host/android"/>
-  <project name="platform/external/nos/host/generic" path="external/nos/host/generic"/>
-  <project name="platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness"/>
-  <project name="platform/external/noto-fonts" path="external/noto-fonts"/>
-  <project name="platform/external/oauth" path="external/oauth"/>
-  <project name="platform/external/objenesis" path="external/objenesis"/>
-  <project name="platform/external/oj-libjdwp" path="external/oj-libjdwp"/>
-  <project name="platform/external/okhttp" path="external/okhttp"/>
-  <project name="platform/external/one-true-awk" path="external/one-true-awk"/>
-  <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
-  <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
-  <project name="platform/external/pcre" path="external/pcre"/>
-  <project name="platform/external/pdfium" path="external/pdfium"/>
-  <project name="platform/external/perf_data_converter" path="external/perf_data_converter"/>
-  <project name="platform/external/perfetto" path="external/perfetto"/>
-  <project name="platform/external/piex" path="external/piex"/>
-  <project name="platform/external/ply" path="external/ply"/>
-  <project name="platform/external/ppp" path="external/ppp"/>
-  <project name="platform/external/proguard" path="external/proguard"/>
-  <project name="platform/external/protobuf" path="external/protobuf"/>
-  <project name="platform/external/puffin" path="external/puffin"/>
-  <project name="platform/external/python/Pillow" path="external/python/Pillow"/>
-  <project name="platform/external/python/appdirs" path="external/python/appdirs"/>
-  <project name="platform/external/python/cachetools" path="external/python/cachetools"/>
-  <project name="platform/external/python/cpython2" path="external/python/cpython2"/>
-  <project name="platform/external/python/cpython3" path="external/python/cpython3"/>
-  <project name="platform/external/python/dill" path="external/python/dill"/>
-  <project name="platform/external/python/enum" path="external/python/enum"/>
-  <project name="platform/external/python/enum34" path="external/python/enum34"/>
-  <project name="platform/external/python/future" path="external/python/future"/>
-  <project name="platform/external/python/futures" path="external/python/futures"/>
-  <project name="platform/external/python/gapic-google-cloud-pubsub-v1" path="external/python/gapic-google-cloud-pubsub-v1"/>
-  <project name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client"/>
-  <project name="platform/external/python/google-auth" path="external/python/google-auth"/>
-  <project name="platform/external/python/google-auth-httplib2" path="external/python/google-auth-httplib2"/>
-  <project name="platform/external/python/google-cloud-core" path="external/python/google-cloud-core"/>
-  <project name="platform/external/python/google-cloud-pubsub" path="external/python/google-cloud-pubsub"/>
-  <project name="platform/external/python/google-gax" path="external/python/google-gax"/>
-  <project name="platform/external/python/googleapis" path="external/python/googleapis"/>
-  <project name="platform/external/python/grpc-google-iam-v1" path="external/python/grpc-google-iam-v1"/>
-  <project name="platform/external/python/grpcio" path="external/python/grpcio"/>
-  <project name="platform/external/python/httplib2" path="external/python/httplib2"/>
-  <project name="platform/external/python/matplotlib" path="external/python/matplotlib"/>
-  <project name="platform/external/python/numpy" path="external/python/numpy"/>
-  <project name="platform/external/python/oauth2client" path="external/python/oauth2client"/>
-  <project name="platform/external/python/olefile" path="external/python/olefile"/>
-  <project name="platform/external/python/packaging" path="external/python/packaging"/>
-  <project name="platform/external/python/parse" path="external/python/parse"/>
-  <project name="platform/external/python/ply" path="external/python/ply"/>
-  <project name="platform/external/python/proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1"/>
-  <project name="platform/external/python/protobuf" path="external/python/protobuf"/>
-  <project name="platform/external/python/pyasn1" path="external/python/pyasn1"/>
-  <project name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules"/>
-  <project name="platform/external/python/pyparsing" path="external/python/pyparsing"/>
-  <project name="platform/external/python/requests" path="external/python/requests"/>
-  <project name="platform/external/python/rsa" path="external/python/rsa"/>
-  <project name="platform/external/python/scipy" path="external/python/scipy"/>
-  <project name="platform/external/python/setuptools" path="external/python/setuptools"/>
-  <project name="platform/external/python/six" path="external/python/six"/>
-  <project name="platform/external/python/uritemplates" path="external/python/uritemplates"/>
-  <project name="platform/external/rappor" path="external/rappor"/>
-  <project name="platform/external/replicaisland" path="external/replicaisland"/>
-  <project name="platform/external/rmi4utils" path="external/rmi4utils"/>
-  <project name="platform/external/robolectric" path="external/robolectric"/>
-  <project name="platform/external/robolectric-shadows" path="external/robolectric-shadows"/>
-  <project name="platform/external/roboto-fonts" path="external/roboto-fonts"/>
-  <project name="platform/external/rootdev" path="external/rootdev"/>
-  <project name="platform/external/safe-iop" path="external/safe-iop"/>
-  <project name="platform/external/scapy" path="external/scapy"/>
-  <project name="platform/external/scrypt" path="external/scrypt"/>
-  <project name="platform/external/seccomp-tests" path="external/seccomp-tests"/>
-  <project name="platform/external/selinux" path="external/selinux"/>
-  <project name="platform/external/sfntly" path="external/sfntly"/>
-  <project name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers"/>
-  <project name="platform/external/shflags" path="external/shflags"/>
-  <project name="platform/external/skia" path="external/skia"/>
-  <project name="platform/external/sl4a" path="external/sl4a"/>
-  <project name="platform/external/slf4j" path="external/slf4j"/>
-  <project name="platform/external/smali" path="external/smali"/>
-  <project name="platform/external/snakeyaml" path="external/snakeyaml"/>
-  <project name="platform/external/sonic" path="external/sonic"/>
-  <project name="platform/external/sonivox" path="external/sonivox"/>
-  <project name="platform/external/speex" path="external/speex"/>
-  <project name="platform/external/spirv-llvm" path="external/spirv-llvm"/>
-  <project name="platform/external/sqlite" path="external/sqlite"/>
-  <project name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
-  <project name="platform/external/strace" path="external/strace"/>
-  <project name="platform/external/stressapptest" path="external/stressapptest"/>
-  <project name="platform/external/swiftshader" path="external/swiftshader"/>
-  <project name="platform/external/syslinux" path="external/syslinux"/>
-  <project name="platform/external/tagsoup" path="external/tagsoup"/>
-  <project name="platform/external/tcpdump" path="external/tcpdump"/>
-  <project name="platform/external/tensorflow" path="external/tensorflow"/>
-  <project name="platform/external/testng" path="external/testng"/>
-  <project name="platform/external/timezonepicker-support" path="external/timezonepicker-support"/>
-  <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
-  <project name="platform/external/tinycompress" path="external/tinycompress"/>
-  <project name="platform/external/tinyxml" path="external/tinyxml"/>
-  <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
-  <project name="platform/external/toybox" path="external/toybox"/>
-  <project name="platform/external/tpm2" path="external/tpm2"/>
-  <project name="platform/external/trappy" path="external/trappy"/>
-  <project name="platform/external/tremolo" path="external/tremolo"/>
-  <project name="platform/external/turbine" path="external/turbine"/>
-  <project name="platform/external/unicode" path="external/unicode"/>
-  <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
-  <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
-  <project name="platform/external/v8" path="external/v8"/>
-  <project name="platform/external/valgrind" path="external/valgrind"/>
-  <project name="platform/external/vboot_reference" path="external/vboot_reference"/>
-  <project name="platform/external/vixl" path="external/vixl"/>
-  <project name="platform/external/vogar" path="external/vogar"/>
-  <project name="platform/external/volley" path="external/volley"/>
-  <project name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers"/>
-  <project name="platform/external/walt" path="external/walt"/>
-  <project name="platform/external/wayland" path="external/wayland"/>
-  <project name="platform/external/wayland-protocols" path="external/wayland-protocols"/>
-  <project name="platform/external/webp" path="external/webp"/>
-  <project name="platform/external/webrtc" path="external/webrtc"/>
-  <project name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
-  <project name="platform/external/wycheproof" path="external/wycheproof"/>
-  <project name="platform/external/x264" path="external/x264"/>
-  <project name="platform/external/xmlrpcpp" path="external/xmlrpcpp"/>
-  <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
-  <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
-  <project name="platform/external/xz-embedded" path="external/xz-embedded"/>
-  <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="platform/external/zopfli" path="external/zopfli"/>
-  <project name="platform/external/zxing" path="external/zxing"/>
-  <project name="platform/frameworks/av" path="frameworks/av"/>
-  <project name="platform/frameworks/base" path="frameworks/base"/>
-  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
-  <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
-  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
-  <project name="platform/frameworks/data-binding" path="frameworks/data-binding"/>
-  <project name="platform/frameworks/ex" path="frameworks/ex"/>
-  <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces"/>
-  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib" clone-depth="1"/>
-  <project name="platform/frameworks/minikin" path="frameworks/minikin"/>
-  <project name="platform/frameworks/ml" path="frameworks/ml"/>
-  <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
-  <project name="platform/frameworks/native" path="frameworks/native"/>
-  <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
-  <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
-  <project name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services"/>
-  <project name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard"/>
-  <project name="platform/frameworks/opt/chips" path="frameworks/opt/chips"/>
-  <project name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker"/>
-  <project name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker"/>
-  <project name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
-  <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
-  <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
-  <project name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
-  <project name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan"/>
-  <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
-  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
-  <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
-  <project name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
-  <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
-  <project name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker"/>
-  <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
-  <project name="platform/frameworks/rs" path="frameworks/rs"/>
-  <project name="platform/frameworks/support" path="frameworks/support"/>
-  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
-  <project name="platform/hardware/akm" path="hardware/akm"/>
-  <project name="platform/hardware/google/apf" path="hardware/google/apf"/>
-  <project name="platform/hardware/google/av" path="hardware/google/av"/>
-  <project name="platform/hardware/google/easel" path="hardware/google/easel"/>
-  <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces"/>
-  <project name="platform/hardware/interfaces" path="hardware/interfaces"/>
-  <project name="platform/hardware/invensense" path="hardware/invensense"/>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc"/>
-  <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element"/>
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"/>
-  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
-  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal"/>
-  <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr"/>
-  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project name="platform/hardware/ril" path="hardware/ril"/>
-  <project name="platform/libcore" path="libcore"/>
-  <project name="platform/libnativehelper" path="libnativehelper"/>
-  <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
-  <project name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
-  <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager"/>
-  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
-  <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer"/>
-  <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
-  <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
-  <project name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher"/>
-  <project name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker"/>
-  <project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer"/>
-  <project name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media"/>
-  <project name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger"/>
-  <project name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview"/>
-  <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio"/>
-  <project name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings"/>
-  <project name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream"/>
-  <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
-  <project name="platform/packages/apps/Car/UserManagement" path="packages/apps/Car/UserManagement"/>
-  <project name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs"/>
-  <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
-  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
-  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
-  <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera"/>
-  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
-  <project name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI"/>
-  <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
-  <project name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo"/>
-  <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
-  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
-  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
-  <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
-  <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
-  <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
-  <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
-  <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
-  <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
-  <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
-  <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
-  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
-  <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
-  <project name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
-  <project name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence"/>
-  <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
-  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery"/>
-  <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
-  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
-  <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
-  <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
-  <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
-  <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
-  <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
-  <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData"/>
-  <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater"/>
-  <project name="platform/packages/apps/Traceur" path="packages/apps/Traceur"/>
-  <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
-  <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
-  <project name="platform/packages/experimental" path="packages/experimental"/>
-  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
-  <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
-  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
-  <project name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider"/>
-  <project name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider"/>
-  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider"/>
-  <project name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider"/>
-  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
-  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
-  <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
-  <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
-  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
-  <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
-  <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable"/>
-  <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
-  <project name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService"/>
-  <project name="platform/packages/services/Car" path="packages/services/Car"/>
-  <project name="platform/packages/services/Mms" path="packages/services/Mms"/>
-  <project name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation"/>
-  <project name="platform/packages/services/Rcs" path="packages/services/Rcs"/>
-  <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm"/>
-  <project name="platform/packages/services/Telephony" path="packages/services/Telephony"/>
-  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker"/>
-  <project name="platform/pdk" path="pdk"/>
-  <project name="platform/platform_testing" path="platform_testing"/>
-  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" clone-depth="1"/>
-  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1"/>
-  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1"/>
-  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" clone-depth="1"/>
-  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1"/>
-  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1"/>
-  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" clone-depth="1"/>
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1"/>
-  <project name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1"/>
-  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1"/>
-  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1"/>
-  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1"/>
-  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1"/>
-  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1"/>
-  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1"/>
-  <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" clone-depth="1"/>
-  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1"/>
-  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1"/>
-  <project name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1"/>
-  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1"/>
-  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1"/>
-  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1"/>
-  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1"/>
-  <project name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1"/>
-  <project name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" clone-depth="1"/>
-  <project name="platform/sdk" path="sdk"/>
-  <project name="platform/system/bt" path="system/bt"/>
-  <project name="platform/system/ca-certificates" path="system/ca-certificates"/>
-  <project name="platform/system/chre" path="system/chre"/>
-  <project name="platform/system/connectivity/wificond" path="system/connectivity/wificond"/>
-  <project name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd"/>
-  <project name="platform/system/core" path="system/core"/>
-  <project name="platform/system/extras" path="system/extras"/>
-  <project name="platform/system/gatekeeper" path="system/gatekeeper"/>
-  <project name="platform/system/hardware/interfaces" path="system/hardware/interfaces"/>
-  <project name="platform/system/hwservicemanager" path="system/hwservicemanager"/>
-  <project name="platform/system/iot/attestation" path="system/iot/attestation"/>
-  <project name="platform/system/keymaster" path="system/keymaster"/>
-  <project name="platform/system/libfmq" path="system/libfmq"/>
-  <project name="platform/system/libhidl" path="system/libhidl"/>
-  <project name="platform/system/libhwbinder" path="system/libhwbinder"/>
-  <project name="platform/system/libufdt" path="system/libufdt"/>
-  <project name="platform/system/libvintf" path="system/libvintf"/>
-  <project name="platform/system/media" path="system/media"/>
-  <project name="platform/system/netd" path="system/netd"/>
-  <project name="platform/system/nfc" path="system/nfc"/>
-  <project name="platform/system/nvram" path="system/nvram"/>
-  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
-  <project name="platform/system/security" path="system/security"/>
-  <project name="platform/system/sepolicy" path="system/sepolicy"/>
-  <project name="platform/system/timezone" path="system/timezone"/>
-  <project name="platform/system/tools/aidl" path="system/tools/aidl"/>
-  <project name="platform/system/tools/hidl" path="system/tools/hidl"/>
-  <project name="platform/system/tpm" path="system/tpm"/>
-  <project name="platform/system/update_engine" path="system/update_engine"/>
-  <project name="platform/system/vold" path="system/vold"/>
-  <project name="platform/test/framework" path="test/framework"/>
-  <project name="platform/test/suite_harness" path="test/suite_harness"/>
-  <project name="platform/test/vti/alert" path="test/vti/alert"/>
-  <project name="platform/test/vti/dashboard" path="test/vti/dashboard"/>
-  <project name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving"/>
-  <project name="platform/test/vti/test_serving" path="test/vti/test_serving"/>
-  <project name="platform/test/vts" path="test/vts"/>
-  <project name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz"/>
-  <project name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal"/>
-  <project name="platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace"/>
-  <project name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel"/>
-  <project name="platform/test/vts-testcase/nbu" path="test/vts-testcase/nbu"/>
-  <project name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance"/>
-  <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security"/>
-  <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
-  <project name="platform/tools/acloud" path="tools/acloud"/>
-  <project name="platform/tools/apksig" path="tools/apksig"/>
-  <project name="platform/tools/apkzlib" path="tools/apkzlib"/>
-  <project name="platform/tools/dexter" path="tools/dexter"/>
-  <project name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project name="platform/tools/external/gradle" path="tools/external/gradle" clone-depth="1"/>
-  <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
-  <project name="platform/tools/metalava" path="tools/metalava"/>
-  <project name="platform/tools/repohooks" path="tools/repohooks"/>
-  <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
-  <project name="platform/tools/tradefederation" path="tools/tradefederation/core"/>
-  <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
-  <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer"/>
-  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony"/>
-  <project name="platform/vendor/google_easel" path="vendor/google_easel"/>
-  <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc"/>
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci"/>
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" clone-depth="1"/>
-  <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl"/>
-  <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl"/>
-  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc"/>
-  <project name="platform/vendor/opensource/audio-kernel" path="kernel/msm-4.9/techpack/audio"/>
-  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/audio"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext"/>
-  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils">
+  <project name="platform_compatibility_cdd" path="compatibility/cdd"/>
+  <project name="platform_dalvik" path="dalvik"/>
+  <project name="platform_developers_build" path="developers/build"/>
+  <project name="platform_developers_demos" path="developers/demos"/>
+  <project name="platform_developers_samples_android" path="developers/samples/android"/>
+  <project name="platform_development" path="development"/>
+  <project name="platform_external_ImageMagick" path="external/ImageMagick"/>
+  <project name="platform_external_Microsoft-GSL" path="external/Microsoft-GSL"/>
+  <project name="platform_external_aac" path="external/aac"/>
+  <project name="platform_external_abi-compliance-checker" path="external/abi-compliance-checker"/>
+  <project name="platform_external_abi-dumper" path="external/abi-dumper"/>
+  <project name="platform_external_adhd" path="external/adhd"/>
+  <project name="platform/external/adt-infra" path="external/adt-infra" remote="aosp" />
+  <project name="platform_external_android-clat" path="external/android-clat"/>
+  <project name="platform_external_androidplot" path="external/androidplot"/>
+  <project name="platform_external_annotation-tools" path="external/annotation-tools"/>
+  <project name="platform_external_ant-glob" path="external/ant-glob"/>
+  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native"/>
+  <project name="platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service"/>
+  <project name="platform_external_antlr" path="external/antlr"/>
+  <project name="platform_external_apache-commons-math" path="external/apache-commons-math"/>
+  <project name="platform_external_apache-harmony" path="external/apache-harmony"/>
+  <project name="platform_external_apache-http" path="external/apache-http"/>
+  <project name="platform_external_apache-xml" path="external/apache-xml"/>
+  <project name="platform_external_archive-patcher" path="external/archive-patcher"/>
+  <project name="platform_external_arm-optimized-routines" path="external/arm-optimized-routines"/>
+  <project name="platform_external_avb" path="external/avb"/>
+  <project name="platform_external_bart" path="external/bart"/>
+  <project name="platform_external_blktrace" path="external/blktrace"/>
+  <project name="platform_external_boringssl" path="external/boringssl"/>
+  <project name="platform_external_bouncycastle" path="external/bouncycastle"/>
+  <project name="platform_external_brotli" path="external/brotli"/>
+  <project name="platform_external_bsdiff" path="external/bsdiff"/>
+  <project name="platform_external_bzip2" path="external/bzip2"/>
+  <project name="platform_external_caliper" path="external/caliper"/>
+  <project name="platform_external_capstone" path="external/capstone"/>
+  <project name="platform_external_cblas" path="external/cblas"/>
+  <project name="platform_external_chromium-libpac" path="external/chromium-libpac"/>
+  <project name="platform_external_chromium-trace" path="external/chromium-trace"/>
+  <project name="platform_external_clang" path="external/clang"/>
+  <project name="platform_external_cmockery" path="external/cmockery"/>
+  <project name="platform_external_cn-cbor" path="external/cn-cbor"/>
+  <project name="platform_external_compiler-rt" path="external/compiler-rt"/>
+  <project name="platform_external_conscrypt" path="external/conscrypt"/>
+  <project name="platform_external_crcalc" path="external/crcalc"/>
+  <project name="platform_external_cros_system_api" path="external/cros/system_api"/>
+  <project name="platform_external_curl" path="external/curl"/>
+  <project name="platform_external_dagger2" path="external/dagger2"/>
+  <project name="platform_external_deqp" path="external/deqp"/>
+  <project name="platform_external_desugar" path="external/desugar"/>
+  <project name="platform_external_devlib" path="external/devlib"/>
+  <project name="platform_external_dexmaker" path="external/dexmaker"/>
+  <project name="platform_external_dhcpcd-6.8.2" path="external/dhcpcd-6.8.2"/>
+  <project name="platform_external_dlmalloc" path="external/dlmalloc"/>
+  <project name="platform_external_dng_sdk" path="external/dng_sdk"/>
+  <project name="platform_external_dnsmasq" path="external/dnsmasq"/>
+  <project name="platform_external_doclava" path="external/doclava"/>
+  <project name="platform_external_donuts" path="external/donuts"/>
+  <project name="platform_external_drm_gralloc" path="external/drm_gralloc"/>
+  <project name="platform_external_drm_hwcomposer" path="external/drm_hwcomposer"/>
+  <project name="platform_external_droiddriver" path="external/droiddriver"/>
+  <project name="platform_external_drrickorang" path="external/drrickorang"/>
+  <project name="platform_external_dtc" path="external/dtc"/>
+  <project name="platform_external_e2fsprogs" path="external/e2fsprogs"/>
+  <project name="platform_external_easymock" path="external/easymock"/>
+  <project name="platform_external_eigen" path="external/eigen"/>
+  <project name="platform_external_elfutils" path="external/elfutils"/>
+  <project name="platform_external_emma" path="external/emma"/>
+  <project name="platform_external_error_prone" path="external/error_prone"/>
+  <project name="platform_external_esd" path="external/esd"/>
+  <project name="platform_external_expat" path="external/expat"/>
+  <project name="platform_external_eyes-free" path="external/eyes-free"/>
+  <project name="platform_external_f2fs-tools" path="external/f2fs-tools"/>
+  <project name="platform_external_fdlibm" path="external/fdlibm"/>
+  <project name="platform_external_fec" path="external/fec"/>
+  <project name="platform_external_fio" path="external/fio"/>
+  <project name="platform_external_flac" path="external/flac"/>
+  <project name="platform_external_flatbuffers" path="external/flatbuffers"/>
+  <project name="platform_external_fmtlib" path="external/fmtlib"/>
+  <project name="platform_external_fonttools" path="external/fonttools"/>
+  <project name="platform_external_freetype" path="external/freetype"/>
+  <project name="platform_external_fsck_msdos" path="external/fsck_msdos"/>
+  <project name="platform_external_gemmlowp" path="external/gemmlowp"/>
+  <project name="platform_external_gflags" path="external/gflags"/>
+  <project name="platform_external_giflib" path="external/giflib"/>
+  <project name="platform_external_glide" path="external/glide"/>
+  <project name="platform_external_golang-protobuf" path="external/golang-protobuf"/>
+  <project name="platform_external_google-api-services-storage" path="external/google-api-services-storage"/>
+  <project name="platform_external_google-benchmark" path="external/google-benchmark"/>
+  <project name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp"/>
+  <project name="platform_external_google-fonts_carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc"/>
+  <project name="platform_external_google-fonts_coming-soon" path="external/google-fonts/coming-soon"/>
+  <project name="platform_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono"/>
+  <project name="platform_external_google-fonts_dancing-script" path="external/google-fonts/dancing-script"/>
+  <project name="platform_external_google-styleguide" path="external/google-styleguide"/>
+  <project name="platform_external_google-tv-pairing-protocol" path="external/google-tv-pairing-protocol"/>
+  <project name="platform_external_googletest" path="external/googletest"/>
+  <project name="platform_external_gptfdisk" path="external/gptfdisk"/>
+  <project name="platform_external_guava" path="external/guava"/>
+  <project name="platform_external_guice" path="external/guice"/>
+  <project name="platform_external_hamcrest" path="external/hamcrest"/>
+  <project name="platform_external_harfbuzz_ng" path="external/harfbuzz_ng"/>
+  <project name="platform_external_honggfuzz" path="external/honggfuzz"/>
+  <project name="platform_external_hyphenation-patterns" path="external/hyphenation-patterns"/>
+  <project name="platform_external_icu" path="external/icu"/>
+  <project name="platform_external_ims" path="external/ims"/>
+  <project name="platform_external_iproute2" path="external/iproute2"/>
+  <project name="platform_external_ipsec-tools" path="external/ipsec-tools"/>
+  <project name="platform_external_iptables" path="external/iptables"/>
+  <project name="platform_external_iputils" path="external/iputils"/>
+  <project name="platform_external_iw" path="external/iw"/>
+  <project name="platform_external_jacoco" path="external/jacoco"/>
+  <project name="platform_external_jarjar" path="external/jarjar"/>
+  <project name="platform_external_javaparser" path="external/javaparser"/>
+  <project name="platform_external_javasqlite" path="external/javasqlite"/>
+  <project name="platform_external_javassist" path="external/javassist"/>
+  <project name="platform_external_jcommander" path="external/jcommander"/>
+  <project name="platform_external_jdiff" path="external/jdiff"/>
+  <project name="platform_external_jemalloc" path="external/jemalloc"/>
+  <project name="platform_external_jline" path="external/jline"/>
+  <project name="platform_external_jmdns" path="external/jmdns"/>
+  <project name="platform_external_jsilver" path="external/jsilver"/>
+  <project name="platform_external_jsmn" path="external/jsmn"/>
+  <project name="platform_external_json-c" path="external/json-c"/>
+  <project name="platform_external_jsoncpp" path="external/jsoncpp"/>
+  <project name="platform_external_jsr305" path="external/jsr305"/>
+  <project name="platform_external_jsr330" path="external/jsr330"/>
+  <project name="platform_external_junit" path="external/junit"/>
+  <project name="platform_external_junit-params" path="external/junit-params"/>
+  <project name="platform_external_kernel-headers" path="external/kernel-headers"/>
+  <project name="platform_external_kmod" path="external/kmod"/>
+  <project name="platform_external_kotlinc" path="external/kotlinc"/>
+  <project name="platform_external_ksoap2" path="external/ksoap2"/>
+  <project name="platform_external_libavc" path="external/libavc"/>
+  <project name="platform_external_libbackup" path="external/libbackup"/>
+  <project name="platform_external_libbrillo" path="external/libbrillo"/>
+  <project name="platform_external_libcap" path="external/libcap"/>
+  <project name="platform_external_libcap-ng" path="external/libcap-ng"/>
+  <project name="platform_external_libchrome" path="external/libchrome"/>
+  <project name="platform_external_libconstrainedcrypto" path="external/libconstrainedcrypto"/>
+  <project name="platform_external_libcups" path="external/libcups"/>
+  <project name="platform_external_libcxx" path="external/libcxx"/>
+  <project name="platform_external_libcxxabi" path="external/libcxxabi"/>
+  <project name="platform_external_libdaemon" path="external/libdaemon"/>
+  <project name="platform_external_libdivsufsort" path="external/libdivsufsort"/>
+  <project name="platform_external_libdrm" path="external/libdrm"/>
+  <project name="platform_external_libedit" path="external/libedit"/>
+  <project name="platform_external_libese" path="external/libese"/>
+  <project name="platform_external_libevent" path="external/libevent"/>
+  <project name="platform_external_libexif" path="external/libexif"/>
+  <project name="platform_external_libffi" path="external/libffi"/>
+  <project name="platform_external_libgsm" path="external/libgsm"/>
+  <project name="platform_external_libhevc" path="external/libhevc"/>
+  <project name="platform_external_libjpeg-turbo" path="external/libjpeg-turbo"/>
+  <project name="platform_external_libldac" path="external/libldac"/>
+  <project name="platform_external_liblzf" path="external/liblzf"/>
+  <project name="platform_external_libmicrohttpd" path="external/libmicrohttpd"/>
+  <project name="platform_external_libmojo" path="external/libmojo"/>
+  <project name="platform_external_libmpeg2" path="external/libmpeg2"/>
+  <project name="platform_external_libmtp" path="external/libmtp"/>
+  <project name="platform_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
+  <project name="platform_external_libnfnetlink" path="external/libnfnetlink"/>
+  <project name="platform_external_libnl" path="external/libnl"/>
+  <project name="platform_external_libogg" path="external/libogg"/>
+  <project name="platform_external_libopus" path="external/libopus"/>
+  <project name="platform_external_libpcap" path="external/libpcap"/>
+  <project name="platform_external_libphonenumber" path="external/libphonenumber"/>
+  <project name="platform_external_libpng" path="external/libpng"/>
+  <project name="platform_external_libtextclassifier" path="external/libtextclassifier"/>
+  <project name="platform_external_libunwind" path="external/libunwind"/>
+  <project name="platform_external_libunwind_llvm" path="external/libunwind_llvm"/>
+  <project name="platform_external_libusb" path="external/libusb"/>
+  <project name="platform_external_libusb-compat" path="external/libusb-compat"/>
+  <project name="platform_external_libvncserver" path="external/libvncserver"/>
+  <project name="platform_external_libvpx" path="external/libvpx"/>
+  <project name="platform_external_libvterm" path="external/libvterm"/>
+  <project name="platform_external_libxaac" path="external/libxaac"/>
+  <project name="platform_external_libxcam" path="external/libxcam"/>
+  <project name="platform_external_libxkbcommon" path="external/libxkbcommon"/>
+  <project name="platform_external_libxml2" path="external/libxml2"/>
+  <project name="platform_external_libyuv" path="external/libyuv"/>
+  <project name="platform_external_lisa" path="external/lisa"/>
+  <project name="platform_external_littlemock" path="external/littlemock"/>
+  <project name="platform_external_lld" path="external/lld"/>
+  <project name="platform_external_llvm" path="external/llvm"/>
+  <project name="platform_external_lmfit" path="external/lmfit"/>
+  <project name="platform_external_ltp" path="external/ltp"/>
+  <project name="platform_external_lz4" path="external/lz4"/>
+  <project name="platform_external_lzma" path="external/lzma"/>
+  <project name="platform_external_markdown" path="external/markdown"/>
+  <project name="platform_external_mdnsresponder" path="external/mdnsresponder"/>
+  <project name="platform_external_mesa3d" path="external/mesa3d"/>
+  <project name="platform_external_messageformat" path="external/messageformat"/>
+  <project name="platform_external_minijail" path="external/minijail"/>
+  <project name="platform_external_mksh" path="external/mksh"/>
+  <project name="platform_external_mmc-utils" path="external/mmc-utils"/>
+  <project name="platform_external_mockftpserver" path="external/mockftpserver"/>
+  <project name="platform_external_mockito" path="external/mockito"/>
+  <project name="platform_external_mockwebserver" path="external/mockwebserver"/>
+  <project name="platform_external_modp_b64" path="external/modp_b64"/>
+  <project name="platform_external_mp4parser" path="external/mp4parser"/>
+  <project name="platform_external_mtpd" path="external/mtpd"/>
+  <project name="platform_external_nanohttpd" path="external/nanohttpd"/>
+  <project name="platform_external_nanopb-c" path="external/nanopb-c"/>
+  <project name="platform_external_naver-fonts" path="external/naver-fonts"/>
+  <project name="platform_external_netcat" path="external/netcat"/>
+  <project name="platform_external_neven" path="external/neven"/>
+  <project name="platform_external_nfacct" path="external/nfacct"/>
+  <project name="platform_external_nist-pkits" path="external/nist-pkits"/>
+  <project name="platform_external_nist-sip" path="external/nist-sip"/>
+  <project name="platform_external_nos_host_android" path="external/nos/host/android"/>
+  <project name="platform_external_nos_host_generic" path="external/nos/host/generic"/>
+  <project name="platform_external_nos_test_system-test-harness" path="external/nos/test/system-test-harness"/>
+  <project name="platform_external_noto-fonts" path="external/noto-fonts"/>
+  <project name="platform_external_oauth" path="external/oauth"/>
+  <project name="platform_external_objenesis" path="external/objenesis"/>
+  <project name="platform_external_oj-libjdwp" path="external/oj-libjdwp"/>
+  <project name="platform_external_okhttp" path="external/okhttp"/>
+  <project name="platform_external_one-true-awk" path="external/one-true-awk"/>
+  <project name="platform_external_owasp_sanitizer" path="external/owasp/sanitizer"/>
+  <project name="platform_external_parameter-framework" path="external/parameter-framework"/>
+  <project name="platform_external_pcre" path="external/pcre"/>
+  <project name="platform_external_pdfium" path="external/pdfium"/>
+  <project name="platform_external_perf_data_converter" path="external/perf_data_converter"/>
+  <project name="platform_external_perfetto" path="external/perfetto"/>
+  <project name="platform_external_piex" path="external/piex"/>
+  <project name="platform_external_ply" path="external/ply"/>
+  <project name="platform_external_ppp" path="external/ppp"/>
+  <project name="platform_external_proguard" path="external/proguard"/>
+  <project name="platform_external_protobuf" path="external/protobuf"/>
+  <project name="platform_external_puffin" path="external/puffin"/>
+  <project name="platform_external_python_Pillow" path="external/python/Pillow"/>
+  <project name="platform_external_python_appdirs" path="external/python/appdirs"/>
+  <project name="platform_external_python_cachetools" path="external/python/cachetools"/>
+  <project name="platform_external_python_cpython2" path="external/python/cpython2"/>
+  <project name="platform_external_python_cpython3" path="external/python/cpython3"/>
+  <project name="platform_external_python_dill" path="external/python/dill"/>
+  <project name="platform_external_python_enum" path="external/python/enum"/>
+  <project name="platform_external_python_enum34" path="external/python/enum34"/>
+  <project name="platform_external_python_future" path="external/python/future"/>
+  <project name="platform_external_python_futures" path="external/python/futures"/>
+  <project name="platform_external_python_gapic-google-cloud-pubsub-v1" path="external/python/gapic-google-cloud-pubsub-v1"/>
+  <project name="platform_external_python_google-api-python-client" path="external/python/google-api-python-client"/>
+  <project name="platform_external_python_google-auth" path="external/python/google-auth"/>
+  <project name="platform_external_python_google-auth-httplib2" path="external/python/google-auth-httplib2"/>
+  <project name="platform_external_python_google-cloud-core" path="external/python/google-cloud-core"/>
+  <project name="platform_external_python_google-cloud-pubsub" path="external/python/google-cloud-pubsub"/>
+  <project name="platform_external_python_google-gax" path="external/python/google-gax"/>
+  <project name="platform_external_python_googleapis" path="external/python/googleapis"/>
+  <project name="platform_external_python_grpc-google-iam-v1" path="external/python/grpc-google-iam-v1"/>
+  <project name="platform_external_python_grpcio" path="external/python/grpcio"/>
+  <project name="platform_external_python_httplib2" path="external/python/httplib2"/>
+  <project name="platform_external_python_matplotlib" path="external/python/matplotlib"/>
+  <project name="platform_external_python_numpy" path="external/python/numpy"/>
+  <project name="platform_external_python_oauth2client" path="external/python/oauth2client"/>
+  <project name="platform_external_python_olefile" path="external/python/olefile"/>
+  <project name="platform_external_python_packaging" path="external/python/packaging"/>
+  <project name="platform_external_python_parse" path="external/python/parse"/>
+  <project name="platform_external_python_ply" path="external/python/ply"/>
+  <project name="platform_external_python_proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1"/>
+  <project name="platform_external_python_protobuf" path="external/python/protobuf"/>
+  <project name="platform_external_python_pyasn1" path="external/python/pyasn1"/>
+  <project name="platform_external_python_pyasn1-modules" path="external/python/pyasn1-modules"/>
+  <project name="platform_external_python_pyparsing" path="external/python/pyparsing"/>
+  <project name="platform_external_python_requests" path="external/python/requests"/>
+  <project name="platform_external_python_rsa" path="external/python/rsa"/>
+  <project name="platform_external_python_scipy" path="external/python/scipy"/>
+  <project name="platform_external_python_setuptools" path="external/python/setuptools"/>
+  <project name="platform_external_python_six" path="external/python/six"/>
+  <project name="platform_external_python_uritemplates" path="external/python/uritemplates"/>
+  <project name="platform_external_rappor" path="external/rappor"/>
+  <project name="platform_external_replicaisland" path="external/replicaisland"/>
+  <project name="platform_external_rmi4utils" path="external/rmi4utils"/>
+  <project name="platform_external_robolectric" path="external/robolectric"/>
+  <project name="platform_external_robolectric-shadows" path="external/robolectric-shadows"/>
+  <project name="platform_external_roboto-fonts" path="external/roboto-fonts"/>
+  <project name="platform_external_rootdev" path="external/rootdev"/>
+  <project name="platform_external_safe-iop" path="external/safe-iop"/>
+  <project name="platform_external_scapy" path="external/scapy"/>
+  <project name="platform_external_scrypt" path="external/scrypt"/>
+  <project name="platform_external_seccomp-tests" path="external/seccomp-tests"/>
+  <project name="platform_external_selinux" path="external/selinux"/>
+  <project name="platform_external_sfntly" path="external/sfntly"/>
+  <project name="platform_external_shaderc_spirv-headers" path="external/shaderc/spirv-headers"/>
+  <project name="platform_external_shflags" path="external/shflags"/>
+  <project name="platform_external_skia" path="external/skia"/>
+  <project name="platform_external_sl4a" path="external/sl4a"/>
+  <project name="platform_external_slf4j" path="external/slf4j"/>
+  <project name="platform_external_smali" path="external/smali"/>
+  <project name="platform_external_snakeyaml" path="external/snakeyaml"/>
+  <project name="platform_external_sonic" path="external/sonic"/>
+  <project name="platform_external_sonivox" path="external/sonivox"/>
+  <project name="platform_external_speex" path="external/speex"/>
+  <project name="platform_external_spirv-llvm" path="external/spirv-llvm"/>
+  <project name="platform_external_sqlite" path="external/sqlite"/>
+  <project name="platform_external_squashfs-tools" path="external/squashfs-tools"/>
+  <project name="platform_external_strace" path="external/strace"/>
+  <project name="platform_external_stressapptest" path="external/stressapptest"/>
+  <project name="platform_external_swiftshader" path="external/swiftshader"/>
+  <project name="platform_external_syslinux" path="external/syslinux"/>
+  <project name="platform_external_tagsoup" path="external/tagsoup"/>
+  <project name="platform_external_tcpdump" path="external/tcpdump"/>
+  <project name="platform_external_tensorflow" path="external/tensorflow"/>
+  <project name="platform_external_testng" path="external/testng"/>
+  <project name="platform_external_timezonepicker-support" path="external/timezonepicker-support"/>
+  <project name="platform_external_tinyalsa" path="external/tinyalsa"/>
+  <project name="platform_external_tinycompress" path="external/tinycompress"/>
+  <project name="platform_external_tinyxml" path="external/tinyxml"/>
+  <project name="platform_external_tinyxml2" path="external/tinyxml2"/>
+  <project name="platform_external_toybox" path="external/toybox"/>
+  <project name="platform_external_tpm2" path="external/tpm2"/>
+  <project name="platform_external_trappy" path="external/trappy"/>
+  <project name="platform_external_tremolo" path="external/tremolo"/>
+  <project name="platform_external_turbine" path="external/turbine"/>
+  <project name="platform_external_unicode" path="external/unicode"/>
+  <project name="platform_external_universal-tween-engine" path="external/universal-tween-engine"/>
+  <project name="platform_external_v4l2_codec2" path="external/v4l2_codec2"/>
+  <project name="platform_external_v8" path="external/v8"/>
+  <project name="platform_external_valgrind" path="external/valgrind"/>
+  <project name="platform_external_vboot_reference" path="external/vboot_reference"/>
+  <project name="platform_external_vixl" path="external/vixl"/>
+  <project name="platform_external_vogar" path="external/vogar"/>
+  <project name="platform_external_volley" path="external/volley"/>
+  <project name="platform_external_vulkan-validation-layers" path="external/vulkan-validation-layers"/>
+  <project name="platform_external_walt" path="external/walt"/>
+  <project name="platform_external_wayland" path="external/wayland"/>
+  <project name="platform_external_wayland-protocols" path="external/wayland-protocols"/>
+  <project name="platform_external_webp" path="external/webp"/>
+  <project name="platform_external_webrtc" path="external/webrtc"/>
+  <project name="platform_external_webview_support_interfaces" path="external/webview_support_interfaces"/>
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform_external_wycheproof" path="external/wycheproof"/>
+  <project name="platform_external_x264" path="external/x264"/>
+  <project name="platform_external_xmlrpcpp" path="external/xmlrpcpp"/>
+  <project name="platform_external_xmlwriter" path="external/xmlwriter"/>
+  <project name="platform_external_xmp_toolkit" path="external/xmp_toolkit"/>
+  <project name="platform_external_xz-embedded" path="external/xz-embedded"/>
+  <project name="platform_external_zlib" path="external/zlib"/>
+  <project name="platform_external_zopfli" path="external/zopfli"/>
+  <project name="platform_external_zxing" path="external/zxing"/>
+  <project name="platform_frameworks_av" path="frameworks/av"/>
+  <project name="platform_frameworks_base" path="frameworks/base"/>
+  <project name="platform_frameworks_compile_libbcc" path="frameworks/compile/libbcc"/>
+  <project name="platform_frameworks_compile_mclinker" path="frameworks/compile/mclinker"/>
+  <project name="platform_frameworks_compile_slang" path="frameworks/compile/slang"/>
+  <project name="platform_frameworks_data-binding" path="frameworks/data-binding"/>
+  <project name="platform_frameworks_ex" path="frameworks/ex"/>
+  <project name="platform_frameworks_hardware_interfaces" path="frameworks/hardware/interfaces"/>
+  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib" clone-depth="1" remote="aosp"/>
+  <project name="platform_frameworks_minikin" path="frameworks/minikin"/>
+  <project name="platform_frameworks_ml" path="frameworks/ml"/>
+  <project name="platform_frameworks_multidex" path="frameworks/multidex"/>
+  <project name="platform_frameworks_native" path="frameworks/native"/>
+  <project name="platform_frameworks_opt_bitmap" path="frameworks/opt/bitmap"/>
+  <project name="platform_frameworks_opt_calendar" path="frameworks/opt/calendar"/>
+  <project name="platform_frameworks_opt_car_services" path="frameworks/opt/car/services"/>
+  <project name="platform_frameworks_opt_car_setupwizard" path="frameworks/opt/car/setupwizard"/>
+  <project name="platform_frameworks_opt_chips" path="frameworks/opt/chips"/>
+  <project name="platform_frameworks_opt_colorpicker" path="frameworks/opt/colorpicker"/>
+  <project name="platform_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker"/>
+  <project name="platform_frameworks_opt_inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
+  <project name="platform_frameworks_opt_inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
+  <project name="platform_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet"/>
+  <project name="platform_frameworks_opt_net_ims" path="frameworks/opt/net/ims"/>
+  <project name="platform_frameworks_opt_net_lowpan" path="frameworks/opt/net/lowpan"/>
+  <project name="platform_frameworks_opt_net_voip" path="frameworks/opt/net/voip"/>
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi"/>
+  <project name="platform_frameworks_opt_photoviewer" path="frameworks/opt/photoviewer"/>
+  <project name="platform_frameworks_opt_setupwizard" path="frameworks/opt/setupwizard"/>
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
+  <project name="platform_frameworks_opt_timezonepicker" path="frameworks/opt/timezonepicker"/>
+  <project name="platform_frameworks_opt_vcard" path="frameworks/opt/vcard"/>
+  <project name="platform_frameworks_rs" path="frameworks/rs"/>
+  <project name="platform_frameworks_support" path="frameworks/support"/>
+  <project name="platform_frameworks_wilhelm" path="frameworks/wilhelm"/>
+  <project name="platform_hardware_akm" path="hardware/akm"/>
+  <project name="platform_hardware_google_apf" path="hardware/google/apf"/>
+  <project name="platform_hardware_google_av" path="hardware/google/av"/>
+  <project name="platform_hardware_google_easel" path="hardware/google/easel"/>
+  <project name="platform_hardware_google_interfaces" path="hardware/google/interfaces"/>
+  <project name="platform_hardware_interfaces" path="hardware/interfaces"/>
+  <project name="platform_hardware_invensense" path="hardware/invensense"/>
+  <project name="platform_hardware_libhardware" path="hardware/libhardware"/>
+  <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="platform_hardware_nxp_nfc" path="hardware/nxp/nfc"/>
+  <project name="platform_hardware_nxp_secure_element" path="hardware/nxp/secure_element"/>
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio"/>
+  <project name="platform_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl"/>
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt"/>
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display"/>
+  <project name="platform_hardware_qcom_gps" path="hardware/qcom/gps"/>
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media"/>
+  <project name="platform_hardware_qcom_thermal" path="vendor/qcom/opensource/thermal-hal"/>
+  <project name="platform_hardware_qcom_vr" path="hardware/qcom/vr"/>
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan"/>
+  <project name="platform_hardware_ril" path="hardware/ril"/>
+  <project name="platform_libcore" path="libcore"/>
+  <project name="platform_libnativehelper" path="libnativehelper"/>
+  <project name="platform_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth"/>
+  <project name="platform_packages_apps_Browser2" path="packages/apps/Browser2"/>
+  <project name="platform_packages_apps_CMFileManager" path="packages/apps/CMFileManager"/>
+  <project name="platform_packages_apps_Calendar" path="packages/apps/Calendar"/>
+  <project name="platform_packages_apps_Camera2" path="packages/apps/Camera2"/>
+  <project name="platform_packages_apps_Car_Dialer" path="packages/apps/Car/Dialer"/>
+  <project name="platform_packages_apps_Car_Hvac" path="packages/apps/Car/Hvac"/>
+  <project name="platform_packages_apps_Car_LatinIME" path="packages/apps/Car/LatinIME"/>
+  <project name="platform_packages_apps_Car_Launcher" path="packages/apps/Car/Launcher"/>
+  <project name="platform_packages_apps_Car_LensPicker" path="packages/apps/Car/LensPicker"/>
+  <project name="platform_packages_apps_Car_LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer"/>
+  <project name="platform_packages_apps_Car_Media" path="packages/apps/Car/Media"/>
+  <project name="platform_packages_apps_Car_Messenger" path="packages/apps/Car/Messenger"/>
+  <project name="platform_packages_apps_Car_Overview" path="packages/apps/Car/Overview"/>
+  <project name="platform_packages_apps_Car_Radio" path="packages/apps/Car/Radio"/>
+  <project name="platform_packages_apps_Car_Settings" path="packages/apps/Car/Settings"/>
+  <project name="platform_packages_apps_Car_Stream" path="packages/apps/Car/Stream"/>
+  <project name="platform_packages_apps_Car_SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
+  <project name="platform_packages_apps_Car_UserManagement" path="packages/apps/Car/UserManagement"/>
+  <project name="platform_packages_apps_Car_libs" path="packages/apps/Car/libs"/>
+  <project name="platform_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig"/>
+  <project name="platform_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
+  <project name="platform_packages_apps_CertInstaller" path="packages/apps/CertInstaller"/>
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts"/>
+  <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock"/>
+  <project name="platform_packages_apps_DevCamera" path="packages/apps/DevCamera"/>
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer"/>
+  <project name="platform_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI"/>
+  <project name="platform_packages_apps_Email" path="packages/apps/Email"/>
+  <project name="platform_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo"/>
+  <project name="platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator"/>
+  <project name="platform_packages_apps_Exchange" path="packages/apps/Exchange"/>
+  <project name="platform_packages_apps_Gallery" path="packages/apps/Gallery"/>
+  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2"/>
+  <project name="platform_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer"/>
+  <project name="platform_packages_apps_KeyChain" path="packages/apps/KeyChain"/>
+  <project name="platform_packages_apps_Launcher2" path="packages/apps/Launcher2"/>
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3"/>
+  <project name="platform_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera"/>
+  <project name="platform_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging"/>
+  <project name="platform_packages_apps_Mms" path="packages/apps/Mms"/>
+  <project name="platform_packages_apps_Music" path="packages/apps/Music"/>
+  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX"/>
+  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc"/>
+  <project name="platform_packages_apps_OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
+  <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller"/>
+  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon"/>
+  <project name="platform_packages_apps_Protips" path="packages/apps/Protips"/>
+  <project name="platform_packages_apps_Provision" path="packages/apps/Provision"/>
+  <project name="platform_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox"/>
+  <project name="platform_packages_apps_SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
+  <project name="platform_packages_apps_SecureElement" path="packages/apps/SecureElement"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings"/>
+  <project name="platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence"/>
+  <project name="platform_packages_apps_SmartCardService" path="packages/apps/SmartCardService"/>
+  <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
+  <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery"/>
+  <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic"/>
+  <project name="platform_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder"/>
+  <project name="platform_packages_apps_SpareParts" path="packages/apps/SpareParts"/>
+  <project name="platform_packages_apps_Stk" path="packages/apps/Stk"/>
+  <project name="platform_packages_apps_StorageManager" path="packages/apps/StorageManager"/>
+  <project name="platform_packages_apps_TV" path="packages/apps/TV"/>
+  <project name="platform_packages_apps_Tag" path="packages/apps/Tag"/>
+  <project name="platform_packages_apps_Terminal" path="packages/apps/Terminal"/>
+  <project name="platform_packages_apps_Test_connectivity" path="packages/apps/Test/connectivity"/>
+  <project name="platform_packages_apps_TimeZoneData" path="packages/apps/TimeZoneData"/>
+  <project name="platform_packages_apps_TimeZoneUpdater" path="packages/apps/TimeZoneUpdater"/>
+  <project name="platform_packages_apps_Traceur" path="packages/apps/Traceur"/>
+  <project name="platform_packages_apps_TvSettings" path="packages/apps/TvSettings"/>
+  <project name="platform_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail"/>
+  <project name="platform_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker"/>
+  <project name="platform_packages_experimental" path="packages/experimental"/>
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME"/>
+  <project name="platform_packages_inputmethods_OpenWnn" path="packages/inputmethods/OpenWnn"/>
+  <project name="platform_packages_providers_ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
+  <project name="platform_packages_providers_BlockedNumberProvider" path="packages/providers/BlockedNumberProvider"/>
+  <project name="platform_packages_providers_BookmarkProvider" path="packages/providers/BookmarkProvider"/>
+  <project name="platform_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider"/>
+  <project name="platform_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider"/>
+  <project name="platform_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider"/>
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider"/>
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider"/>
+  <project name="platform_packages_providers_PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
+  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider"/>
+  <project name="platform_packages_providers_TvProvider" path="packages/providers/TvProvider"/>
+  <project name="platform_packages_providers_UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
+  <project name="platform_packages_screensavers_Basic" path="packages/screensavers/Basic"/>
+  <project name="platform_packages_screensavers_PhotoTable" path="packages/screensavers/PhotoTable"/>
+  <project name="platform_packages_screensavers_WebView" path="packages/screensavers/WebView"/>
+  <project name="platform_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService"/>
+  <project name="platform_packages_services_Car" path="packages/services/Car"/>
+  <project name="platform_packages_services_Mms" path="packages/services/Mms"/>
+  <project name="platform_packages_services_NetworkRecommendation" path="packages/services/NetworkRecommendation"/>
+  <project name="platform_packages_services_Rcs" path="packages/services/Rcs"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm"/>
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony"/>
+  <project name="platform_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker"/>
+  <project name="platform_pdk" path="pdk"/>
+  <project name="platform_platform_testing" path="platform_testing"/>
+  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1" remote="aosp"/>
+  <project name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" clone-depth="1" remote="aosp"/>
+  <project name="platform_sdk" path="sdk"/>
+  <project name="platform_system_bt" path="system/bt"/>
+  <project name="platform_system_ca-certificates" path="system/ca-certificates"/>
+  <project name="platform_system_chre" path="system/chre"/>
+  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond"/>
+  <project name="platform_system_connectivity_wifilogd" path="system/connectivity/wifilogd"/>
+  <project name="platform_system_core" path="system/core"/>
+  <project name="platform_system_extras" path="system/extras"/>
+  <project name="platform_system_gatekeeper" path="system/gatekeeper"/>
+  <project name="platform_system_hardware_interfaces" path="system/hardware/interfaces"/>
+  <project name="platform_system_hwservicemanager" path="system/hwservicemanager"/>
+  <project name="platform_system_iot_attestation" path="system/iot/attestation"/>
+  <project name="platform_system_keymaster" path="system/keymaster"/>
+  <project name="platform_system_libfmq" path="system/libfmq"/>
+  <project name="platform_system_libhidl" path="system/libhidl"/>
+  <project name="platform_system_libhwbinder" path="system/libhwbinder"/>
+  <project name="platform_system_libufdt" path="system/libufdt"/>
+  <project name="platform_system_libvintf" path="system/libvintf"/>
+  <project name="platform_system_media" path="system/media"/>
+  <project name="platform_system_netd" path="system/netd"/>
+  <project name="platform_system_nfc" path="system/nfc"/>
+  <project name="platform_system_nvram" path="system/nvram"/>
+  <project name="platform_system_qcom" path="vendor/qcom/opensource/softap"/>
+  <project name="platform_system_security" path="system/security"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy"/>
+  <project name="platform_system_timezone" path="system/timezone"/>
+  <project name="platform_system_tools_aidl" path="system/tools/aidl"/>
+  <project name="platform_system_tools_hidl" path="system/tools/hidl"/>
+  <project name="platform_system_tpm" path="system/tpm"/>
+  <project name="platform_system_update_engine" path="system/update_engine"/>
+  <project name="platform_system_vold" path="system/vold"/>
+  <project name="platform_test_framework" path="test/framework"/>
+  <project name="platform_test_suite_harness" path="test/suite_harness"/>
+  <project name="platform_test_vti_alert" path="test/vti/alert"/>
+  <project name="platform_test_vti_dashboard" path="test/vti/dashboard"/>
+  <project name="platform_test_vti_fuzz_test_serving" path="test/vti/fuzz_test_serving"/>
+  <project name="platform_test_vti_test_serving" path="test/vti/test_serving"/>
+  <project name="platform_test_vts" path="test/vts"/>
+  <project name="platform_test_vts-testcase_fuzz" path="test/vts-testcase/fuzz"/>
+  <project name="platform_test_vts-testcase_hal" path="test/vts-testcase/hal"/>
+  <project name="platform_test_vts-testcase_hal-trace" path="test/vts-testcase/hal-trace"/>
+  <project name="platform_test_vts-testcase_kernel" path="test/vts-testcase/kernel"/>
+  <project name="platform_test_vts-testcase_nbu" path="test/vts-testcase/nbu"/>
+  <project name="platform_test_vts-testcase_performance" path="test/vts-testcase/performance"/>
+  <project name="platform_test_vts-testcase_security" path="test/vts-testcase/security"/>
+  <project name="platform_test_vts-testcase_vndk" path="test/vts-testcase/vndk"/>
+  <project name="platform_tools_acloud" path="tools/acloud"/>
+  <project name="platform_tools_apksig" path="tools/apksig"/>
+  <project name="platform_tools_apkzlib" path="tools/apkzlib"/>
+  <project name="platform/tools/dexter" path="tools/dexter" remote="aosp"/>
+  <project name="platform_tools_external_fat32lib" path="tools/external/fat32lib"/>
+  <project name="platform/tools/external/gradle" path="tools/external/gradle" clone-depth="1" remote="aosp"/>
+  <project name="platform_tools_loganalysis" path="tools/loganalysis"/>
+  <project name="platform_tools_metalava" path="tools/metalava"/>
+  <project name="platform_tools_repohooks" path="tools/repohooks"/>
+  <project name="platform_tools_test_connectivity" path="tools/test/connectivity"/>
+  <project name="platform_tools_tradefederation" path="tools/tradefederation/core"/>
+  <project name="platform_tools_tradefederation_contrib" path="tools/tradefederation/contrib"/>
+  <project name="platform_vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer"/>
+  <project name="platform_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony"/>
+  <project name="platform_vendor_google_easel" path="vendor/google_easel"/>
+  <project name="platform_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc"/>
+  <project name="platform_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci"/>
+  <project name="platform_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl"/>
+  <project name="platform_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl"/>
+  <project name="platform_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc"/>
+  <project name="platform_vendor_opensource_audio-kernel" path="kernel/msm-4.9/techpack/audio"/>
+  <project name="platform_vendor_qcom-opensource_audio" path="vendor/qcom/opensource/audio"/>
+  <project name="platform_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
+  <project name="platform_vendor_qcom-opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext"/>
+  <project name="platform_vendor_qcom-opensource_core-utils" path="vendor/qcom/opensource/core-utils">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw"/>
-  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
-  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
-  <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices"/>
-  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display"/>
-  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
-  <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm"/>
-  <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm"/>
-  <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager"/>
-  <project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext"/>
-  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces"/>
-  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
-  <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
-  <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power"/>
-  <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext"/>
-  <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
-  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt"/>
-  <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine"/>
-  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
-  <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb"/>
-  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd"/>
-  <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig"/>
-  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0"/>
-  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut"/>
-  <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909"/>
-  <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go"/>
-  <project name="platform/vendor/qcom/skunk" path="device/qcom/sdm845"/>
-  <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996"/>
-  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
-  <project name="toolchain/binutils"/>
-  <project name="toolchain/pgo-profiles"/>
+  <project name="platform_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw"/>
+  <project name="platform_vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
+  <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices"/>
+  <project name="platform_vendor_qcom-opensource_dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices"/>
+  <project name="platform_vendor_qcom-opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display"/>
+  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm"/>
+  <project name="platform_vendor_qcom-opensource_dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm"/>
+  <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm"/>
+  <project name="platform_vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm"/>
+  <project name="platform_vendor_qcom-opensource_fst-manager" path="vendor/qcom/opensource/fst-manager"/>
+  <project name="platform_vendor_qcom-opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext"/>
+  <project name="platform_vendor_qcom-opensource_interfaces" path="vendor/qcom/opensource/interfaces"/>
+  <project name="platform_vendor_qcom-opensource_location" path="vendor/qcom/opensource/location"/>
+  <project name="platform_vendor_qcom-opensource_mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
+  <project name="platform_vendor_qcom-opensource_power" path="vendor/qcom/opensource/power"/>
+  <project name="platform_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext"/>
+  <project name="platform_vendor_qcom-opensource_shortcut-fe" path="shortcut-fe"/>
+  <project name="platform_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt"/>
+  <project name="platform_vendor_qcom-opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine"/>
+  <project name="platform_vendor_qcom-opensource_time-services" path="vendor/qcom/opensource/time-services"/>
+  <project name="platform_vendor_qcom-opensource_tools" path="vendor/qcom/opensource/tools"/>
+  <project name="platform_vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb"/>
+  <project name="platform_vendor_qcom-opensource_wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd"/>
+  <project name="platform_vendor_qcom-opensource_wigig" path="vendor/qcom/opensource/wigig"/>
+  <project name="platform_vendor_qcom-opensource_wlan_fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
+  <project name="platform_vendor_qcom-opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn"/>
+  <project name="platform_vendor_qcom-opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0"/>
+  <project name="platform_vendor_qcom-opensource_wlan_utils_sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut"/>
+  <project name="platform_vendor_qcom_ferrum" path="device/qcom/msm8909"/>
+  <project name="platform_vendor_qcom_msm8909go" path="device/qcom/msm8909go"/>
+  <project name="platform_vendor_qcom_skunk" path="device/qcom/sdm845"/>
+  <project name="platform_vendor_qcom_thulium" path="device/qcom/msm8996"/>
+  <project name="platform_vendor_qcom_wlan" path="device/qcom/wlan"/>
+  <project name="toolchain_binutils" path="toolchain/binutils"/>
+  <project name="toolchain_pgo-profiles" path="toolchain/pgo-profiles"/>
 
   <!-- Remove unused repos -->
   <include name="snippets/remove.xml" />
