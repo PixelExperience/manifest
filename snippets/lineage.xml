@@ -96,6 +96,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
   </project>
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
 
   <!-- Packages repos -->

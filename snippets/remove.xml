@@ -113,6 +113,7 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/sdm710/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
