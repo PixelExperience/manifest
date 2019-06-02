@@ -140,16 +140,11 @@
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!-- System repos -->
   <remove-project name="platform_system_bt" />
   <remove-project name="platform_system_core" />
   <remove-project name="platform_system_extras" />
-  <remove-project name="platform_system_hwservicemanager" />
-  <remove-project name="platform_system_libhidl" />
-  <remove-project name="platform_system_libhwbinder" />
   <remove-project name="platform_system_security" />
   <remove-project name="platform_system_sepolicy" />
   <remove-project name="platform_system_timezone" />

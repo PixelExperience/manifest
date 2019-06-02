@@ -6,6 +6,7 @@
           revision="lineage-16.0" />
 
   <!-- CodeAurora additions -->
+  <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 
   <!-- External repos -->
@@ -15,5 +16,6 @@
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+  <project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" remote="lineage" />
 
 </manifest>
