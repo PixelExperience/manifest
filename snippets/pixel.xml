@@ -29,15 +29,18 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio-caf_msm8996" remote="pixel-caf" />
   <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio-caf_msm8998" remote="pixel-caf" />
   <project path="hardware/qcom/audio-caf/sdm845" name="hardware_qcom_audio-caf_sdm845" remote="pixel-caf" />
+  <project path="hardware/qcom/audio-caf/sm8150" name="hardware_qcom_audio-caf_sm8150" remote="pixel-caf" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel-caf" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel-caf" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display-caf_msm8996" remote="pixel-caf" />
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display-caf_msm8998" remote="pixel-caf" />
   <project path="hardware/qcom/display-caf/sdm845" name="hardware_qcom_display-caf_sdm845" remote="pixel-caf" />
+  <project path="hardware/qcom/display-caf/sm8150" name="hardware_qcom_display-caf_sm8150" remote="pixel-caf" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media-caf_msm8996" remote="pixel-caf" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media-caf_msm8998" remote="pixel-caf" />
   <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media-caf_sdm845" remote="pixel-caf" />
+  <project path="hardware/qcom/media-caf/sm8150" name="hardware_qcom_media-caf_sm8150" remote="pixel-caf" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel-caf" />
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="pixel-caf" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="vendor_qcom_opensource_commonsys_bluetooth" remote="pixel-caf" />
