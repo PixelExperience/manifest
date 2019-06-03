@@ -96,7 +96,16 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="lineage" />
+  <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" remote="lineage" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="lineage">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="lineage" />
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="lineage" />
+  <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" remote="lineage" />
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
 
   <!-- Packages repos -->
