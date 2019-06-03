@@ -83,7 +83,6 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
-  <project path="system/hwservicemanager" name="system_hwservicemanager" remote="pixel" />
   <project path="system/libvintf" name="system_libvintf" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
