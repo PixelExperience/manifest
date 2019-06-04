@@ -72,7 +72,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/proguard" name="android_external_proguard" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
-  <project path="external/skia" name="android_external_skia" remote="lineage" />
 
   <!-- General repos -->
   <project path="art" name="android_art" remote="lineage" />
@@ -116,7 +115,6 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="android_system_bt" remote="lineage" />
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
