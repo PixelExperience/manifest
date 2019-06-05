@@ -16,6 +16,5 @@
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
-  <project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" remote="lineage" />
 
 </manifest>
