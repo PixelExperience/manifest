@@ -145,6 +145,7 @@
   <remove-project name="platform_system_bt" />
   <remove-project name="platform_system_core" />
   <remove-project name="platform_system_extras" />
+  <remove-project name="platform_system_netd" />
   <remove-project name="platform_system_security" />
   <remove-project name="platform_system_sepolicy" />
   <remove-project name="platform_system_timezone" />
