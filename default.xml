@@ -4,7 +4,7 @@
   <remote name="caf"
           fetch="git://codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.7.3.r1-07800-sdm845.0" />
+          revision="refs/tags/LA.UM.7.3.r1-07900-sdm845.0" />
 
   <remote name="aosp"
           fetch="https://android.googlesource.com"
