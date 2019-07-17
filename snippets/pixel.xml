@@ -22,6 +22,7 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom/audio-caf/sm8150" name="hardware_qcom_audio-caf_sm8150" revision="pie-caf" remote="pixel" />
+  <project path="hardware/qcom/display-caf/headers" name="hardware_qcom_display-caf_headers" remote="pixel" />
   <project path="hardware/qcom/display-caf/sm8150" name="hardware_qcom_display-caf_sm8150" revision="pie-caf" remote="pixel" />
   <project path="hardware/qcom/media-caf/sm8150" name="hardware_qcom_media-caf_sm8150" revision="pie-caf" remote="pixel" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
