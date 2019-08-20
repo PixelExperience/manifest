@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b pie
+repo init -u https://github.com/PixelExperience/manifest -b pie-plus
 
 # Sync
 repo sync -c -jx --force-sync --no-clone-bundle --no-tags

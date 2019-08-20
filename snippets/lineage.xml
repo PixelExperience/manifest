@@ -124,4 +124,7 @@
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+
 </manifest>

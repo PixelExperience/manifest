@@ -6,6 +6,11 @@
           revision="pie"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="pie-plus"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
           revision="pie" />
@@ -14,20 +19,15 @@
           fetch="https://github.com/" />
 
   <!-- General repos -->
-  <project path="crowdin" name="crowdin" remote="pixel" />
-  <project path="WeatherClient" name="WeatherClient" remote="pixel" revision="master" />
+  <project path="crowdin" name="crowdin" remote="pixel-plus" />
 
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
-  <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
-  <project path="packages/resources/OneplusGestures" name="packages_resources_OneplusGestures" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/themes" name="vendor_themes" remote="pixel-plus" />
 
 </manifest>
