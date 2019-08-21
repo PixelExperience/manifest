@@ -76,6 +76,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel-plus" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/Longshot" name="packages_apps_Longshot" remote="pixel-plus" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel-plus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
