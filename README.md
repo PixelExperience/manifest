@@ -8,7 +8,7 @@
 repo init -u https://github.com/PixelExperience/manifest -b pie-plus
 
 # Sync
-repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
