@@ -163,6 +163,7 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
