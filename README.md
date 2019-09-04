@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b pie
+repo init -u https://github.com/PixelExperience/manifest -b android-10
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
