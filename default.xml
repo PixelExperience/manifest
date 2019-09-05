@@ -735,4 +735,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all Phh's repos -->
+  <include name="snippets/phh.xml" />
+
 </manifest>

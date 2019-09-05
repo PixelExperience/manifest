@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel-gsi"
+          fetch="https://github.com/PixelExperience"
+          revision="pie-gsi"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="phh"
+      fetch="https://github.com/phhusson/" />
+
+  <!-- Device Repos -->
+  <project path="device/phh/treble" name="device_phh_treble" remote="pixel-devices" />
+
+  <!-- External Repos -->
+  <remove-project name="android_external_exfat" />
+  <project path="external/exfat" name="exfat" remote="phh" revision="android.bp-pie" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+  <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
+  <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="master" />
+  <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
+  <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+
+  <!-- Repos with gsi specific branches -->
+  <remove-project name="build" />
+  <project path="build/make" name="build" remote="pixel-gsi">
+    <copyfile dest="Makefile" src="core/root.mk" />
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+  </project>
+
+  <remove-project name="system_core" />
+  <project path="system/core" name="system_core" remote="pixel-gsi" />
+
+  <remove-project name="system_sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixel-gsi" />
+
+  <remove-project name="frameworks_native" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixel-gsi" />
+
+  <remove-project name="system_vold" />
+  <project path="system/vold" name="system_vold" remote="pixel-gsi" />
+
+  <remove-project name="system_bt" />
+  <project path="system/bt" name="system_bt" remote="pixel-gsi" />
+
+  <remove-project name="android_external_selinux" />
+  <project path="external/selinux" name="external_selinux" remote="pixel-gsi" />
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-gsi" />
+
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel-gsi" />
+
+  <remove-project name="frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel-gsi" />
+
+  <remove-project name="system_netd" />
+  <project path="system/netd" name="system_netd" remote="pixel-gsi" />
+
+  <remove-project name="frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel-gsi" />
+
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-gsi" />
+
+  <remove-project name="packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel-gsi" />
+
+  <remove-project name="bionic" />
+  <project path="bionic" name="bionic" remote="pixel-gsi" />
+
+</manifest>
