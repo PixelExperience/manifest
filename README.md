@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b pie
+repo init -u https://github.com/pe-wip/manifest -b ten
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -53,7 +53,7 @@ You can send patches to us by using these commands in terminal:
     (From root android directory)
     . build/envsetup.sh
     (Go to repo you are patching, make your changes and commit)
-    pixelgerrit push pie
+    pixelgerrit push ten
 
     or
 
@@ -62,7 +62,7 @@ You can send patches to us by using these commands in terminal:
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.pixelexperience.org/#/settings/))
 * `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.pixelexperience.org/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `pie`
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `ten`
 
 Make your changes and commit with a detailed message, starting with what you are working with
 Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
