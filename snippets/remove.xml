@@ -144,6 +144,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/r8" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />

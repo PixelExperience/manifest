@@ -129,6 +129,7 @@
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
   <project path="prebuilts/openssl" name="prebuilts_openssl" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/r8" name="prebuilts_r8" remote="pixel" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
