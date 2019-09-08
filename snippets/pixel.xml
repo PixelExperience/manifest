@@ -53,6 +53,29 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixel" />  
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
 
+  <!-- Pathmap -->
+   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /> -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" /> -->
+  </project>
+
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
