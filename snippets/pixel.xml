@@ -52,6 +52,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/elfutils" name="external_elfutils" remote="pixel" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
@@ -127,6 +128,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixel" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
   <project path="prebuilts/openssl" name="prebuilts_openssl" remote="pixel" clone-depth="1" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="pixel" clone-depth="1" />
