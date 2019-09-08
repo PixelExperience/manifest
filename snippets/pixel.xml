@@ -25,18 +25,18 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/json-c" name="external_json-c" remote="pixel" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom/audio-caf/sdm845" name="hardware_qcom_audio-caf_sdm845" remote="pixel" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" remote="pixel" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom/display-caf/sdm845" name="hardware_qcom_display-caf_sdm845" remote="pixel" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media-caf_sdm845" remote="pixel" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
-  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pixel" />
-  <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="pixel" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan-caf" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio-caf_sdm845" remote="pixel" />
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display-caf_sdm845" remote="pixel" />
+  <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media-caf_sdm845" remote="pixel" />
+  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
+  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixel" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="pixel" />
   <project path="system/qcom" name="system_qcom" remote="pixel" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel" />
