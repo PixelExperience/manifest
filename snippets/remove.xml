@@ -55,6 +55,10 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/google-fonts/arbutus-slab" />
+  <remove-project name="platform/external/google-fonts/lato" />
+  <remove-project name="platform/external/google-fonts/rubik" />
+  <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/selinux" />
