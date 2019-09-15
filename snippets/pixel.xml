@@ -25,10 +25,13 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/json-c" name="external_json-c" remote="pixel" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom/audio-caf/sdm845" name="hardware_qcom_audio-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" remote="pixel" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom/display-caf/sdm845" name="hardware_qcom_display-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pixel" />
