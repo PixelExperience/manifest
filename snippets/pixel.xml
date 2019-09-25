@@ -103,7 +103,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="pixel" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="pixel" />
