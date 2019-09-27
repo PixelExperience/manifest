@@ -51,15 +51,10 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
-  <remove-project name="platform/external/boringssl" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/elfutils" />
-  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
-  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
@@ -142,7 +137,6 @@
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />

@@ -20,41 +20,18 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy" remote="pixel" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixel" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixel" />
-  <project path="external/connectivity" name="external_connectivity" remote="pixel" />
-  <project path="external/json-c" name="external_json-c" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixel" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="pixel" />
-  <project path="system/qcom" name="system_qcom" remote="pixel" />
-  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="pixel" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="pixel" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixel" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixel" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixel" />  
-  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
 
   <!-- Pathmap -->
    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel" >
@@ -64,33 +41,24 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-
-  <!-- External repos -->
-  <project path="external/boringssl" name="external_boringssl" remote="pixel" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
-  <project path="external/elfutils" name="external_elfutils" remote="pixel" />
-  <project path="external/exfat" name="external_exfat" remote="pixel" />
-  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="pixel" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixel" />
-  <project path="external/libpng" name="external_libpng" remote="pixel" />
-  <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
-  <project path="external/selinux" name="external_selinux" remote="pixel" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
@@ -126,19 +94,6 @@
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
-  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="pixel" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixel" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pixel" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixel" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixel" />
-  <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
@@ -158,7 +113,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixel" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
