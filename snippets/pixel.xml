@@ -85,7 +85,7 @@
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <!--project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" /-->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
