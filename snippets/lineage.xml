@@ -69,7 +69,6 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage" clone-depth="1" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
