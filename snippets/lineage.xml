@@ -91,6 +91,8 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="lineage" />
+  <project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" remote="lineage" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- External repos -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
