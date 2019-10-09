@@ -111,7 +111,6 @@
   <!-- Packages repos -->
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="lineage" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="lineage" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
 
