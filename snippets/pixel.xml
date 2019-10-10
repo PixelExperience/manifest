@@ -57,7 +57,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixel-plus" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel-plus" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
@@ -99,7 +99,7 @@
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixel-plus" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
 </manifest>
