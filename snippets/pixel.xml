@@ -79,10 +79,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="pixel">
+  <project path="build/soong" name="build_soong" remote="pixel" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
@@ -90,6 +91,9 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+
+  <!-- LineageOS additions -->
+  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
