@@ -31,7 +31,7 @@
   <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixel" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="pixel" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
   <!-- Pathmap -->
    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel" >
