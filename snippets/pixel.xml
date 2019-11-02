@@ -28,9 +28,9 @@
   <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media-caf_sm8150" remote="pixel" />
-  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixel" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
   <!-- Pathmap -->
