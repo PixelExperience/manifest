@@ -25,11 +25,11 @@
   <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display-caf_sm8150" remote="pixel" />
-  <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="pixel" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
@@ -93,7 +93,7 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
 
-  <!-- LineageOS additions -->
+  <!-- Custom additions -->
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
 
   <!-- Hardware repos -->
@@ -112,7 +112,6 @@
   <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" /-->
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
