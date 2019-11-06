@@ -113,6 +113,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
+  <!-- External repos -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
