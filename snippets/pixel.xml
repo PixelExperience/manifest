@@ -25,10 +25,15 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/chromium-libpac" name="external_chromium-libpac" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/libcups" name="external_libcups" remote="pixel" />
+  <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="pixel" />
+  <project path="external/sqlite" name="external_sqlite" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+  <project path="external/v8" name="external_v8" remote="pixel" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
@@ -72,12 +77,15 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="pixel" />
+  <project path="packages/providers/TvProvider" name="packages_providers_TvProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
