@@ -44,18 +44,23 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/v8" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -143,6 +148,7 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -161,6 +167,8 @@
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
