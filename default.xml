@@ -797,6 +797,9 @@
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
+  <!-- Add some StatiXOS repos -->
+  <include name="snippets/statix.xml" />
+
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
