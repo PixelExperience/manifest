@@ -66,6 +66,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
