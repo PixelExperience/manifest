@@ -94,10 +94,6 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
