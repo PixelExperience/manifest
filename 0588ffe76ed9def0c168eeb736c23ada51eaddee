@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02655c0e_e19a10dc",
+        "filename": "snippets/pixel.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000040
+      },
+      "writtenOn": "2019-11-19T17:28:04Z",
+      "side": 1,
+      "message": "hardware_qcom_bt",
+      "revId": "0588ffe76ed9def0c168eeb736c23ada51eaddee",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a",
+      "unresolved": true
+    }
+  ]
+}
