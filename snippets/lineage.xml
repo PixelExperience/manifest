@@ -89,7 +89,6 @@
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lineage" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
