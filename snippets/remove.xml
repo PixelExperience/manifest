@@ -54,12 +54,14 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
@@ -79,8 +81,10 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/development" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -145,6 +149,7 @@
   <remove-project name="platform/prebuilts/r8" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
