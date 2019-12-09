@@ -27,6 +27,7 @@
   <!-- External repos -->
   <project path="external/chromium-libpac" name="external_chromium-libpac" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <project path="external/ImageMagick" name="external_ImageMagick" remote="pixel" />
   <project path="external/libcups" name="external_libcups" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
@@ -99,6 +100,7 @@
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
+  <project path="system/security" name="system_security" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 

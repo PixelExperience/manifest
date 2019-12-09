@@ -49,6 +49,7 @@
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />

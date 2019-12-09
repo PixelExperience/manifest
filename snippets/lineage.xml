@@ -118,7 +118,6 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
