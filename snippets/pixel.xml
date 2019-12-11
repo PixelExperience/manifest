@@ -18,6 +18,7 @@
           fetch="https://gitlab.com" />
 
   <!-- CodeAurora additions -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="pixel" />
@@ -70,7 +71,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixel" />
