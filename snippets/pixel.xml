@@ -102,6 +102,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/keymaster" name="system_keymaster" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
