@@ -158,6 +158,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
