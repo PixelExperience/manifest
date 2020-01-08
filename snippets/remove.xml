@@ -155,6 +155,7 @@
   <remove-project name="platform/prebuilts/r8" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />

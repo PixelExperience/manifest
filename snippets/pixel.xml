@@ -101,6 +101,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- System Repos -->
+  <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
