@@ -86,7 +86,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
@@ -98,7 +97,6 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
