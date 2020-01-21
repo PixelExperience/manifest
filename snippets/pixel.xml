@@ -104,6 +104,7 @@
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
