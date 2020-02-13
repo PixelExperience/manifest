@@ -101,6 +101,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
+  <project path="external/toybox" name="android_external_toybox" remote="lineage" />
 
   <!-- System repos -->
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />

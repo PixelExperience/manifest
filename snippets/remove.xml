@@ -62,6 +62,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
