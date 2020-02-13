@@ -19,7 +19,7 @@
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" revision="ten-legacy-um" remote="pixel" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="pixel" />
