@@ -6,13 +6,6 @@
           revision="ten"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
-          revision="ten" />
-
-  <remote name="github"
-          fetch="https://github.com/" />
-
   <!-- General repos -->
   <project path="crowdin" name="crowdin" remote="pixel" />
 
