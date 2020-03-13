@@ -7,7 +7,7 @@
           review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-plus"
-          fetch="https://github.com/pe-wip"
+          fetch="https://github.com/PixelExperience"
           revision="ten-plus"
           review="gerrit.pixelexperience.org" />
 
