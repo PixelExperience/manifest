@@ -126,6 +126,7 @@
 
   <!-- External repos -->
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- System Repos -->
