@@ -6,9 +6,6 @@
           revision="ten"
           review="gerrit.pixelexperience.org" />
 
-  <!-- External repos -->
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
-
   <!-- General repos -->
   <project path="crowdin" name="crowdin" remote="pixel" />
 
