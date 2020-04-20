@@ -130,7 +130,6 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
