@@ -36,7 +36,6 @@
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
