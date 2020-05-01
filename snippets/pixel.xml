@@ -136,8 +136,10 @@
 
   <!-- External repos -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
+  <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
+  <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
@@ -163,6 +165,7 @@
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel-plus" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
