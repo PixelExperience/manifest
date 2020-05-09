@@ -13,6 +13,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
