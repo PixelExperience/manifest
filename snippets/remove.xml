@@ -111,6 +111,9 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="hardware/qcom-caf/msm8998/audio" />
+  <remove-project name="hardware/qcom-caf/msm8998/display" />
+  <remove-project name="hardware/qcom-caf/msm8998/media" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/ril" />
