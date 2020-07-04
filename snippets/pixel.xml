@@ -16,6 +16,12 @@
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
+  
+  <remote name="pixel-bitbucket"
+          fetch="https://bitbucket.org/pixelexperience-devices" />
+
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
