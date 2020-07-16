@@ -87,8 +87,11 @@
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
