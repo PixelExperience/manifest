@@ -20,7 +20,7 @@
           revision="ten" />
 
   <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
+          fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
   <remote name="bitbucket"
