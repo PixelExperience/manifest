@@ -18,6 +18,10 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="ten" />
+
   <remote name="bitbucket"
           fetch="https://bitbucket.org" />
 
