@@ -182,6 +182,7 @@
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
+  <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
