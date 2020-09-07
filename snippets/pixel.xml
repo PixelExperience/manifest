@@ -10,10 +10,6 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="ten" />
 
-  <remote name="pixel-devices-bitbucket"
-          fetch="https://bitbucket.org/PixelExperience-Devices"
-          revision="ten" />
-
   <remote name="pixel-gitlab"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
