@@ -127,7 +127,6 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
-  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -144,7 +143,6 @@
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/Traceur" />
-  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/CaptivePortalLogin" />
