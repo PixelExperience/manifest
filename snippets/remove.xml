@@ -128,6 +128,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
@@ -137,6 +138,7 @@
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Stk" />
