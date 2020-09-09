@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="ssh://git@gitlab.pixelexperience.org/android-eleven"
+          revision="eleven"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="eleven" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="eleven" />
+
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <!-- General repos -->
+  <project path="manifest" name="manifest" remote="pixel" />
+
+</manifest>
