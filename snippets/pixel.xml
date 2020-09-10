@@ -165,6 +165,7 @@
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
+  <project path="external/sonivox" name="external_sonivox" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
