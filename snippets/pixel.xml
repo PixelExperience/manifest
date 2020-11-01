@@ -10,6 +10,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixel" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixel" />
@@ -47,6 +48,9 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_sdm845_media" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="pixel" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixel" />
@@ -107,6 +111,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
+  <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
