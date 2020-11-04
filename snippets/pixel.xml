@@ -162,6 +162,7 @@
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/sonivox" name="external_sonivox" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
