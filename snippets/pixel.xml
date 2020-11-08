@@ -127,10 +127,6 @@
   </project>
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
-  <!-- Mediatek repos -->
-  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="pixel" />
-  <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="pixel" />
-
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
