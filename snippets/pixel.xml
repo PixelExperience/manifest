@@ -2,9 +2,24 @@
 <manifest>
 
   <remote name="pixel"
-          fetch="ssh://git@gitlab.pixelexperience.org/android-eleven"
+          fetch="https://github.com/PixelExperience"
           revision="eleven"
           review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="eleven" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="eleven" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />

@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u ssh://git@gitlab.pixelexperience.org/android-eleven/manifest -b eleven
+repo init -u https://github.com/PixelExperience/manifest -b eleven
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
