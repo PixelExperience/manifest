@@ -10,8 +10,12 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="eleven" />
 
-  <remote name="pixel-gitlab"
+  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
 
   <remote name="pixel-devices-blobs"
@@ -19,7 +23,7 @@
           revision="eleven" />
 
   <remote name="gitlab"
-          fetch="https://gitlab.com" />
+          fetch="https://gitlab.com/" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
