@@ -16,15 +16,16 @@
           revision="ten" />
 
   <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="ten" />
+
+  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
   <remote name="pixel-devices-blobs"
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="ten" />
-
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
@@ -165,7 +166,7 @@
   <project path="external/libexif" name="external_libexif" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/sonivox" name="external_sonivox" remote="pixel" />
