@@ -119,6 +119,11 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="pixel" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="pixel" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
