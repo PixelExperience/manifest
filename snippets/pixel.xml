@@ -78,6 +78,8 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
