@@ -95,6 +95,7 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
+  <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/make" name="build" remote="pixel">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -129,6 +130,7 @@
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixel" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pixel" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixel" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="pixel" >
