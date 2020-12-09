@@ -44,15 +44,11 @@
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
@@ -110,7 +106,6 @@
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
