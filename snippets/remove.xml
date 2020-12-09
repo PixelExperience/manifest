@@ -60,6 +60,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
@@ -122,8 +123,9 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />

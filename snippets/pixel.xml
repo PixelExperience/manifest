@@ -127,6 +127,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
+  <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="pixel" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="pixel" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
@@ -156,6 +157,7 @@
   <project path="external/freetype" name="external_freetype" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
+  <project path="external/libaom" name="external_libaom" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libexif" name="external_libexif" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
