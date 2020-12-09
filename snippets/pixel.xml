@@ -133,6 +133,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pixel" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixel" />
+  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="pixel" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
