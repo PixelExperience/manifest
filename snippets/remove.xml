@@ -69,6 +69,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
