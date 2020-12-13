@@ -14,7 +14,7 @@
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-18.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
-  <project path="system/qcom" name="android_system_qcom" remote="lineage" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-18.0" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
@@ -37,7 +37,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- External repos -->
-  <project path="external/bson" name="android_external_bson" remote="lineage" />
+  <project path="external/bson" name="android_external_bson" remote="lineage" revision="lineage-18.0" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
