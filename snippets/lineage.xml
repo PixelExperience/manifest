@@ -47,6 +47,7 @@
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- System Repos -->
