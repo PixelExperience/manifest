@@ -65,6 +65,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
@@ -76,6 +77,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
