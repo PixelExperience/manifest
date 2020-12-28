@@ -38,6 +38,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
 
   <!-- Custom additions -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- External repos -->
@@ -55,5 +56,8 @@
 
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+
+  <!-- Tools Repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
 </manifest>
