@@ -11,20 +11,20 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-18.0-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-18.1-caf" />
-  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-18.0" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.0-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.0-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.0-sn100x" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.0-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-18.1-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-18.1-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-18.1-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-18.1-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" />
@@ -43,7 +43,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- External repos -->
-  <project path="external/bson" name="android_external_bson" remote="lineage" revision="lineage-18.0" />
+  <project path="external/bson" name="android_external_bson" remote="lineage" revision="lineage-18.1" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
