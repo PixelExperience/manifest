@@ -90,6 +90,7 @@
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
+  <project path="external/lottie" name="external_lottie" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
