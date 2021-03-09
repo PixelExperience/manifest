@@ -7,7 +7,7 @@
           review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-plus"
-          fetch="ssh://git@gitlab.pixelexperience.org/android/eleven-plus"
+          fetch="https://github.com/PixelExperience"
           revision="eleven-plus"
           review="gerrit.pixelexperience.org" />
 
