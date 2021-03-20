@@ -27,8 +27,9 @@ $ mka bacon -jX
 
 ### Submitting Patches ###
 
-Patches are always welcome!  Please submit your patches to our Gerrit.
+Patches are always welcome! Please submit your patches to our Gerrit.
 
+<<<<<<< HEAD   (57a0c4 Remove repo hooks)
 To start contributing, just register at https://gerrit.pixelexperience.org
 
 Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
@@ -70,3 +71,6 @@ Commit your patches in a single commit. Squash multiple commits using this comma
 For more help, use this commands: `pixelgerrit help` or `pixelrebase help`
 
 [View Code Review](https://gerrit.pixelexperience.org/)
+=======
+[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
+>>>>>>> CHANGE (81c885 manifest: Update gerrit guide)
