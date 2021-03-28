@@ -131,7 +131,7 @@
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/support" name="vendor_support" remote="pixel" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
