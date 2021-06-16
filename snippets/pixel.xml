@@ -105,7 +105,7 @@
   <project path="external/toybox" name="external_toybox" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel-plus" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
