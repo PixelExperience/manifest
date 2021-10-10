@@ -164,6 +164,7 @@
   <remove-project name="platform/prebuilts/build-tools" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
