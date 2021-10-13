@@ -23,7 +23,6 @@
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
   <!--project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" /-->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
