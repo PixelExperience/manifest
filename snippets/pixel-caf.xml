@@ -71,6 +71,9 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="pixel" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel" />
