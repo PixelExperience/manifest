@@ -173,6 +173,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
