@@ -85,6 +85,7 @@
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pixel" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
@@ -103,6 +104,7 @@
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+  <project path="external/tremolo" name="external_tremolo" remote="pixel" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
 
@@ -183,6 +185,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel-plus" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="pixel" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
@@ -212,6 +215,7 @@
   <project path="system/nfc" name="system_nfc" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="pixel" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />

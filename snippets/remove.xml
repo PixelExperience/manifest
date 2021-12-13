@@ -77,6 +77,7 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Framework repos -->
@@ -136,6 +137,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -157,6 +159,7 @@
   <remove-project name="platform/packages/modules/CaptivePortalLogin" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
@@ -185,6 +188,7 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/system/tools/aidl" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
