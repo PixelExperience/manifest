@@ -8,6 +8,9 @@
   <remote name="github"
           fetch="https://github.com/" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <default revision="refs/tags/android-11.0.0_r46"
            remote="aosp"
            sync-j="4"
@@ -841,10 +844,9 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Add some LineageOS repos -->
-  <include name="snippets/lineage.xml" />
-
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
+  <include name="snippets/pixel-extras.xml" />
+  <include name="snippets/pixel-caf.xml" />
 
 </manifest>
