@@ -97,6 +97,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/development" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->
