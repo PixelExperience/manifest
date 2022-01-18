@@ -154,6 +154,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
