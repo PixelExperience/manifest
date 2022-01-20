@@ -73,6 +73,7 @@
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
@@ -88,6 +89,14 @@
   </project>
   <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="pixel" />
   <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="pixel" />
+  <project path="hardware/qcom/sm7250/display" name="hardware_qcom_sm7250_display" remote="pixel" />
+  <project path="hardware/qcom/sm7250/media" name="hardware_qcom_sm7250_media" remote="pixel" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="pixel">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="pixel" />
+  <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="pixel" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
