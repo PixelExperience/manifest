@@ -133,6 +133,7 @@
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
