@@ -6,6 +6,11 @@
           revision="twelve"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve-plus"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience/twelve"
           revision="twelve" />
@@ -39,9 +44,9 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel-plus" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -67,7 +72,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-  <project path="manifest" name="manifest" remote="pixel" />
+  <project path="manifest" name="manifest" remote="pixel-plus" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
   <!-- Hardware repos -->
@@ -107,7 +112,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
@@ -118,7 +123,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->

@@ -13,7 +13,7 @@
 
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
