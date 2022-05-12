@@ -141,6 +141,7 @@
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
+  <project path="system/libhidl" name="system_libhidl" remote="pixel" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
