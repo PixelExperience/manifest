@@ -36,7 +36,6 @@
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/qcom" name="system_qcom" remote="pixel" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
 
   <!-- Tools Repos -->
