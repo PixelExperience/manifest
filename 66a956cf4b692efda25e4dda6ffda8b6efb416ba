@@ -16,6 +16,24 @@
       "message": "reason?",
       "revId": "66a956cf4b692efda25e4dda6ffda8b6efb416ba",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b96b17e8_9affb2c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000019
+      },
+      "writtenOn": "2022-05-25T13:53:37Z",
+      "side": 1,
+      "message": "https://github.com/JarlPenguin/device_motorola_nio/commits/twelve/qsap\nDoubt lots of devices use the lib",
+      "parentUuid": "144a3c3d_cb1e29d9",
+      "revId": "66a956cf4b692efda25e4dda6ffda8b6efb416ba",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
