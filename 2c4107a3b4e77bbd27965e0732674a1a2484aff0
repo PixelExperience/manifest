@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48a18fe7_1e87d448",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000243
+      },
+      "writtenOn": "2022-06-07T21:03:07Z",
+      "side": 1,
+      "message": "don\u0027t see why you can\u0027t track those in aosp.dependencies in device/qcom/common",
+      "revId": "2c4107a3b4e77bbd27965e0732674a1a2484aff0",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
