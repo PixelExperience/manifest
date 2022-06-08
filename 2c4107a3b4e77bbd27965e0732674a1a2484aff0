@@ -16,6 +16,24 @@
       "message": "don\u0027t see why you can\u0027t track those in aosp.dependencies in device/qcom/common",
       "revId": "2c4107a3b4e77bbd27965e0732674a1a2484aff0",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "011ace4b_deed6661",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000558
+      },
+      "writtenOn": "2022-06-08T00:25:21Z",
+      "side": 1,
+      "message": "qcom/common tree is for multiple devices that use different platforms and hals, so it doesn\u0027t make sense. an example is surya msmsteppe and uses sm8150, spes is bengal and uses sm8250.",
+      "parentUuid": "48a18fe7_1e87d448",
+      "revId": "2c4107a3b4e77bbd27965e0732674a1a2484aff0",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
