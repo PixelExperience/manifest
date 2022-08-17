@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".."
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <default revision="refs/tags/android-13.0.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1167,4 +1176,13 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Add all PixelExperience repos -->
+  <include name="snippets/pixel.xml" />
+  <include name="snippets/pixel-extras.xml" />
+  <include name="snippets/pixel-caf.xml" />
+
 </manifest>
