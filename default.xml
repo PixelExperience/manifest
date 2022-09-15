@@ -16,10 +16,12 @@
            sync-j="4"
            sync-c="true"
            sync-f="true" />
+  
+  
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r4" />
   <contactinfo bugurl="go/repo-bug" />
-
+ 
   <project path="build/make" name="platform/build" groups="pdk" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -1184,5 +1186,10 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
-
+  
+  <!-- Add Xiaomi LISA -->
+  <project path="device/xiaomi/lisa" name="dkpost3/device_xiaomi_lisa-oss" remote="github" revision="thirteen"/>
+  <project path="vendor/xiaomi/lisa" name="dkpost3/vendor_xiaomi_lisa-oss" revision="arrow-13.0" remote="github"/>
+  <project path="kernel/xiaomi/lisa" name="android_kernel_xiaomi_lisa" revision="thirteen" remote="github"/>
+  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="thirteen" remote="github"/>
 </manifest>
