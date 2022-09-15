@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/lisa" name="dkpost3/device_xiaomi_lisa-oss" remote="github" revision="thirteen" />
+  <project path="device/xiaomi/lisa" name="dkpost3/device_xiaomi_lisa-oss" revision="thirteen" remote="github" />
   <project path="vendor/xiaomi/lisa" name="dkpost3/vendor_xiaomi_lisa-oss" revision="arrow-13.0" remote="github" />
-  <project path="kernel/xiaomi/lisa" name="android_kernel_xiaomi_lisa" revision="thirteen" remote="github" />
+  <project path="kernel/xiaomi/lisa" name="dkpost3/android_kernel_xiaomi_lisa" revision="thirteen" remote="github" />
   <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="thirteen" remote="github" />
 </manifest>
