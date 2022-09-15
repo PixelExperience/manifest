@@ -1177,8 +1177,12 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="device/xiaomi/lisa" name="dkpost3/device_xiaomi_lisa-oss" remote="github" revision="thirteen" />
+  <project path="vendor/xiaomi/lisa" name="dkpost3/vendor_xiaomi_lisa-oss" revision="arrow-13.0" remote="github" />
+  <project path="kernel/xiaomi/lisa" name="android_kernel_xiaomi_lisa" revision="thirteen" remote="github" />
+  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="thirteen" remote="github" />
   <!-- END open-source projects -->
-
+  
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
@@ -1186,10 +1190,4 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
-  
-  <!-- Add Xiaomi LISA -->
-  <project path="device/xiaomi/lisa" name="dkpost3/device_xiaomi_lisa-oss" remote="github" revision="thirteen"/>
-  <project path="vendor/xiaomi/lisa" name="dkpost3/vendor_xiaomi_lisa-oss" revision="arrow-13.0" remote="github"/>
-  <project path="kernel/xiaomi/lisa" name="android_kernel_xiaomi_lisa" revision="thirteen" remote="github"/>
-  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="thirteen" remote="github"/>
 </manifest>
