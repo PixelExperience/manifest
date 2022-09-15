@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<project path="device/xiaomi/lisa"
-	name="dkpost3/device_xiaomi_lisa-oss"
-	remote="github"
-	revision="thirteen" />
-</manifest>
