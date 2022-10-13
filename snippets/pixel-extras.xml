@@ -6,7 +6,6 @@
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/json-c" name="external_json-c" remote="pixel" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixel" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
@@ -18,7 +17,6 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
 
   <!-- Hardware repos -->
-  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="pixel" />
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
 
