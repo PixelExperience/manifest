@@ -18,6 +18,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="pixel" />
   <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
 
   <!-- Packages repos -->

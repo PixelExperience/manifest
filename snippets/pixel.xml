@@ -69,6 +69,7 @@
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
+  <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
   <!-- Hardware repos -->
@@ -135,6 +136,7 @@
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
   <project path="system/security" name="system_security" remote="pixel" />
