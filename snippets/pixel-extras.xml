@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- External repos -->
-  <!--project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" /-->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/dwarves" name="external_dwarves" remote="pixel" />
@@ -24,7 +24,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pixel" />
-  <!--project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" /-->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
