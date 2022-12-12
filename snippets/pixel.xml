@@ -102,6 +102,7 @@
   <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="pixel" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
+  <project path="hardware/st/nfc" name="hardware_st_nfc" remote="pixel" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
