@@ -45,7 +45,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel-plus" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
