@@ -12,10 +12,6 @@
           review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience/thirteen"
-          revision="thirteen" />
-
-  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="thirteen" />
 
