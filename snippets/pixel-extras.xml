@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- External repos -->
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab" />
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/dwarves" name="external_dwarves" remote="pixel" />
@@ -13,8 +13,7 @@
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
+  <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel-plus" />
 
   <!-- Hardware repos -->
