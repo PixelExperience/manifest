@@ -62,6 +62,7 @@
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150-common/audio" name="hardware_qcom-caf_sm8150-common_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150-common/display" name="hardware_qcom-caf_sm8150-common_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8150-common/gps" name="hardware_qcom-caf_sm8150-common_gps" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150-common/media" name="hardware_qcom-caf_sm8150-common_media" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
