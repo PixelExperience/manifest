@@ -20,8 +20,11 @@
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
+<<<<<<< HEAD   (27a6b2 manifest: stop syncing msm8998)
   <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="pixel-plus" />
   <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
+=======
+>>>>>>> CHANGE (dff1a7 manifest: Fixup "stop syncing msm8998")
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pixel" />
