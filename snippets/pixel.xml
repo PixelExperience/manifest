@@ -114,6 +114,7 @@
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="pixel" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
@@ -125,6 +126,7 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
+  <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />

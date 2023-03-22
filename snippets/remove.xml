@@ -169,6 +169,7 @@
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -182,6 +183,7 @@
   <remove-project name="platform/prebuilts/build-tools" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
