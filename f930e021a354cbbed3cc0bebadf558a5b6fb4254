@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4be124d_1a27a792",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000693
+      },
+      "writtenOn": "2023-06-07T00:26:32Z",
+      "side": 1,
+      "message": "Wait until this repository gets forked",
+      "revId": "f930e021a354cbbed3cc0bebadf558a5b6fb4254",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
