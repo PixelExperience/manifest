@@ -2,12 +2,12 @@
 <manifest>
 
   <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
+          fetch="ssh://git@github.com/PixelExperience-Staging"
           revision="thirteen"
-          review="gerrit.pixelexperience.org" />
+          review="gerrit-staging.pixelexperience.org" />
 
   <remote name="pixel-plus"
-          fetch="https://github.com/PixelExperience"
+          fetch="ssh://git@github.com/PixelExperience-Staging"
           revision="thirteen-plus"
           review="gerrit.pixelexperience.org" />
 
