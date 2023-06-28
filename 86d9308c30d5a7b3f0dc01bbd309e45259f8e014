@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "866841ff_d4b6d2d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000714
+      },
+      "writtenOn": "2023-06-28T19:10:59Z",
+      "side": 1,
+      "message": "Needed by sdm660 devices while switching to the 4.19 kernel base",
+      "revId": "86d9308c30d5a7b3f0dc01bbd309e45259f8e014",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
