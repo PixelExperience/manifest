@@ -39,6 +39,9 @@
   <remove-project name="device/google/gs201" />
   <remove-project name="device/google/gs201-sepolicy" />
   <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-kernel" />
+  <remove-project name="device/google/lynx-sepolicy" />
   <remove-project name="device/google/pantah" />
   <remove-project name="device/google/pantah-kernel" />
   <remove-project name="device/google/pantah-sepolicy" />
