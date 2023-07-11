@@ -115,7 +115,7 @@
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel-plus" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
