@@ -69,6 +69,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
+  <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel-plus" />
   <project path="libcore" name="libcore" remote="pixel" />

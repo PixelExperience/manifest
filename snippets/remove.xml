@@ -31,6 +31,7 @@
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
