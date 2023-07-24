@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7259a183_78ed024c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000694
+      },
+      "writtenOn": "2023-07-24T16:27:59Z",
+      "side": 1,
+      "message": "This never got mirrored to plus, breaking builds for Spacewar and possibly dre (the device that needed it first)",
+      "revId": "c18da3c5e7554f84fa7b18f0d0df531abb3b72bd",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
