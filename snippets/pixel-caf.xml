@@ -81,14 +81,6 @@
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_commonsys_frameworks" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_pn5xx_halimpl" remote="pixel" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_pn5xx_hidlimpl" remote="pixel" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_sn100x_halimpl" remote="pixel" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_sn100x_hidlimpl" remote="pixel" />
   <project path="vendor/nxp/secure_element" name="vendor_nxp_secure_element" remote="pixel" />
   <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="pixel" />
 
