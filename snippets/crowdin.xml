@@ -11,6 +11,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
