@@ -3,7 +3,7 @@
 
   <remote name="pixel"
           fetch="https://github.com/PixelExperience"
-          revision="twelve"
+          revision="thirteen"
           review="gerrit.pixelexperience.org" />
 
   <!-- Framework repos -->
