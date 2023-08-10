@@ -44,6 +44,12 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/bengal/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" />
@@ -74,6 +80,16 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="hardware_qcom-caf_sm8450_audio_agm" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="hardware_qcom-caf_sm8450_audio_pal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="hardware_qcom-caf_sm8450_audio_primary-hal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/display" name="hardware_qcom-caf_sm8450_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/media" name="hardware_qcom-caf_sm8450_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="hardware_qcom-caf_sm8550_audio_agm" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="hardware_qcom-caf_sm8550_audio_pal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="hardware_qcom-caf_sm8550_audio_primary-hal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/display" name="hardware_qcom-caf_sm8550_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/media" name="hardware_qcom-caf_sm8550_media" remote="pixel" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pixel" />
@@ -83,6 +99,7 @@
   <!-- Vendor repos - QCOM -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="pixel" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="vendor_qcom_opensource_audio-hal_st-hal-ar" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" />
   <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pixel" />
