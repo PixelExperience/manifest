@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcce7036_77a3ed72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000411
+      },
+      "writtenOn": "2023-08-17T03:10:43Z",
+      "side": 1,
+      "message": "https://gerrit.pixelexperience.org/c/frameworks_native/+/26435\nafter merging this, plus and normal will have same history",
+      "revId": "39964cb25d5637bda7fa92796da50e609f822507",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
