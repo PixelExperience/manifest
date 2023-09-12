@@ -28,6 +28,7 @@
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <project path="external/dtc" name="external_dtc" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />

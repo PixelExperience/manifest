@@ -81,6 +81,7 @@
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
