@@ -54,6 +54,9 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" />
@@ -94,6 +97,12 @@
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="hardware_qcom-caf_sm8550_audio_primary-hal" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/display" name="hardware_qcom-caf_sm8550_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/media" name="hardware_qcom-caf_sm8550_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="hardware_qcom-caf_sm6225_audio_agm" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="hardware_qcom-caf_sm6225_audio_pal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="hardware_qcom-caf_sm6225_audio_primary-hal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom-caf_sm6225_display" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/gps" name="hardware_qcom-caf_sm6225_gps" remote="pixel" />
+  <project path="hardware/qcom-caf/sm6225/media" name="hardware_qcom-caf_sm6225_media" remote="pixel" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pixel" />
