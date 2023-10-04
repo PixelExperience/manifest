@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External repos -->
+  <!--project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab" /-->
+  <project path="external/bson" name="external_bson" remote="pixel" />
+  <project path="external/connectivity" name="external_connectivity" remote="pixel" />
+  <project path="external/json-c" name="external_json-c" remote="pixel" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
+
+  <!-- General repos -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
+  <!--project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" /-->
+
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+  <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="pixel" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="pixel" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="pixel" />
+
+  <!-- Packages repos -->
+  <!--project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pixel" /-->
+  <!--project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" /-->
+  <!--project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" /-->
+  <!--project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixel" /-->
+  <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" /-->
+  <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" /-->
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="prebuilts_kernel-build-tools" remote="pixel" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
+
+  <!-- Tools Repos -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
+</manifest>
