@@ -94,11 +94,14 @@
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="hardware_qcom-caf_sm8450_audio_agm" remote="pixel" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="hardware_qcom-caf_sm8450_audio_pal" remote="pixel" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="hardware_qcom-caf_sm8450_audio_primary-hal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" remote="pixel" />
   <project path="hardware/qcom-caf/sm8450/display" name="hardware_qcom-caf_sm8450_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8450/media" name="hardware_qcom-caf_sm8450_media" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="hardware_qcom-caf_sm8550_audio_agm" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="hardware_qcom-caf_sm8550_audio_pal" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="hardware_qcom-caf_sm8550_audio_primary-hal" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="hardware_qcom-caf_sm8550_dataipa" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/display" name="hardware_qcom-caf_sm8550_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8550/media" name="hardware_qcom-caf_sm8550_media" remote="pixel" />
 
@@ -124,7 +127,6 @@
   <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pixel" />
   <project path="vendor/qcom/opensource/core-utils-sys" name="vendor_qcom_opensource_core-utils-sys" remote="pixel" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor_qcom_opensource_core-utils-vendor" remote="pixel" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixel" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="pixel" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pixel" />
