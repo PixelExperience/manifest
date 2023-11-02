@@ -26,6 +26,8 @@
     <!-- for AOSP sdm845, we override os_pickup.mk -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -55,6 +57,9 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/msm8953/audio" name="hardware_qcom-caf_msm8953_audio" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom-caf_msm8953_display" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8953/media" name="hardware_qcom-caf_msm8953_media" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="pixel" />
