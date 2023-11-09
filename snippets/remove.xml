@@ -86,6 +86,7 @@
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
@@ -176,12 +177,13 @@
   <remove-project name="platform/packages/apps/Traceur" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/modules/adb" />/>
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -198,6 +200,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/incremental_delivery" />
@@ -219,6 +222,7 @@
   <remove-project name="platform/system/vold" />
 
   <!-- Tools repos -->
+  <remove-project name="platform/tools/apksig" />
   <remove-project name="platform/tools/metalava" />
 
 </manifest>

@@ -28,6 +28,7 @@
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
+  <project path="external/libxml2" name="external_libxml2" remote="pixel" />
   <project path="external/mksh" name="external_mksh" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
@@ -118,6 +119,7 @@
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="pixel" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="pixel" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
@@ -132,6 +134,7 @@
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />
+  <project path="system/ca-certificates" name="system_ca-certificates" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
@@ -153,6 +156,7 @@
   <project path="system/vold" name="system_vold" remote="pixel" />
 
   <!-- Tools Repos -->
+  <project path="tools/apksig" name="tools_apksig" remote="pixel" />
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
 
 </manifest>
