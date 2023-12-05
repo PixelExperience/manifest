@@ -88,6 +88,7 @@
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
@@ -113,6 +114,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/platform_testing" />
