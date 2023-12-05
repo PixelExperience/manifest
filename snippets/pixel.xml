@@ -30,6 +30,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libxml2" name="external_libxml2" remote="pixel" />
   <project path="external/mksh" name="external_mksh" remote="pixel" />
+  <project path="external/pdfium" name="external_pdfium" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
@@ -65,6 +66,7 @@
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="cts" name="cts" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
