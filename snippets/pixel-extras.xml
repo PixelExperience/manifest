@@ -14,7 +14,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <!--project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" /-->
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
