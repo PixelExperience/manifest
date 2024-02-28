@@ -2,9 +2,9 @@
 <manifest>
 
   <remote name="pixel"
-          fetch="https://github.com/PixelExperience-Staging"
+          fetch="https://github.com/PixelExperience"
           revision="fourteen"
-          review="gerrit-staging.pixelexperience.org" />
+          review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-gitlab"
           fetch="https://gitlab.pixelexperience.org/android"
