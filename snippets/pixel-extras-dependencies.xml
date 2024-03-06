@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Hardware Repos-->
+  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" clone-depth="1"/>
+  <project path="hardware/oneplus" name="hardware_oneplus" remote="pixel" clone-depth="1"/>
+  <project path="hardware/oplus" name="hardware_oplus" remote="pixel" clone-depth="1"/>
+  <project path="hardware/samsung" name="hardware_samsung" remote="pixel" clone-depth="1"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixel" clone-depth="1"/>
+  
+</manifest>
